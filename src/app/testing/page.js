@@ -1,10 +1,10 @@
-import Card from '@/components/mui/Card'
+import SimpleCard from '@/components/mui/SimpleCard'
 import React from 'react'
 
 function page() {
   return (
     <div> 
-      <Card />
+      <SimpleCard />
     </div>
   )
 }
