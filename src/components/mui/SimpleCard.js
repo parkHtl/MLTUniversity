@@ -2,9 +2,9 @@ import React from 'react'
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
-import { Button, CardActionArea, CardActions } from '@mui/material';
+import {Button, Card, CardActionArea, CardActions} from '@mui/material';
 
-export default function Card() {
+export default function SimpleCard() {
   return (
     <div>
         <div className=' '>
