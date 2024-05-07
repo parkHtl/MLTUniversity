@@ -1,38 +1,28 @@
-import React from 'react'
-import CardContent from '@mui/material/CardContent';
-import CardMedia from '@mui/material/CardMedia';
-import Typography from '@mui/material/Typography';
-import {Button, Card, CardActionArea, CardActions} from '@mui/material';
+import React from "react";
+import CardContent from "@mui/material/CardContent";
+import CardMedia from "@mui/material/CardMedia";
+import Typography from "@mui/material/Typography";
+import { Button, Card, CardActionArea, CardActions } from "@mui/material";
+import { red } from "@mui/material/colors";
 
 export default function SimpleCard() {
   return (
-    <div>
-        <div className=' '>
-        <Card sx={{ maxWidth: 345 }}>
-      <CardActionArea>
-        <CardMedia
-          component="img"
-          height="140"
-          image="/static/images/cards/contemplative-reptile.jpg"
-          alt="green iguana"
-        />
-        <CardContent>
-          <Typography gutterBottom variant="h5" component="div">
-            Lizard
-          </Typography>
-          <Typography variant="body2" color="text.secondary">
-            Lizards are a widespread group of squamate reptiles, with over 6,000
-            species, ranging across all continents except Antarctica
-          </Typography>
-        </CardContent>
-      </CardActionArea>
-      <CardActions>
-        <Button size="small" color="primary">
-          Share
-        </Button>
-      </CardActions>
-    </Card>
-        </div>
+    <div className="">
+      <div className=" w-[100%]  h-[100%]">
+        <Card sx={{ maxWidth: 345, height: 250, width: 300, backgroundColor:'blue' }}>
+          <CardActionArea >
+            <CardContent sx={{marginLeft:'10px'}}>
+              <Typography gutterBottom variant="h5" component="div" sx={{color:'white',paddingTop:'35px'}}>
+              International Clubs
+              </Typography>
+              <Typography variant="body2" color="text.secondary" sx={{color:'white',fontSize:16}}>
+              MLT is committed to bringing in the best of the world educational experience to encourage global exposure among students 
+              </Typography>
+            </CardContent>
+          </CardActionArea>
+          <CardActions></CardActions>
+        </Card>
+      </div>
     </div>
-  )
+  );
 }
