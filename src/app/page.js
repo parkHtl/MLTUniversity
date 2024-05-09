@@ -26,7 +26,7 @@ export default function Home() {
                       vibrant campus experience.</p>
               </div>
           </div>
-          <BentoGrid/>
+         <div className={'my-[60px]'}> <BentoGrid/></div>
           <div>
               <ImageGridAndText/>
           </div>
