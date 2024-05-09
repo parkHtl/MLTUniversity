@@ -1,6 +1,6 @@
 import { cn } from "@/utils/cn";
 import React from "react";
-import { BentoGridItem, BentoGridBase } from "@/components/acui/bento-grid";
+import {   BentoGridItem, BentoGridBase} from "@/components/acui/bento-grid";
 import {
   IconArrowWaveRightUp,
   IconBoxAlignRightFilled,

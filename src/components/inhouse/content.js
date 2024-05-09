@@ -1,6 +1,6 @@
 const MainContent = ({children}) => {
     return   (
-        <main className="flex w-full p-[20px] h-[200vh]">
+        <main className="flex w-full p-[20px] min-h-[200vh]:">
             {children}
         </main>
     )
