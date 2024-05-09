@@ -2,7 +2,7 @@ import React from "react";
 import Textcontent from "@/components/inhouse/Textcontent";
 import ImageCard from "@/components/mui/ImageCard";
 
-function page() {
+function ImageGridAndText() {
   return (
     <div>
       <div className="flex flex-row gap-16 justify-between ml-10 mr-10  ">
@@ -10,11 +10,11 @@ function page() {
           <Textcontent />
         </div>
         <div className="flex-end  ">
-        <ImageCard />
+          <ImageCard />
         </div>
       </div>
     </div>
   );
 }
 
-export default page;
+export default ImageGridAndText;
