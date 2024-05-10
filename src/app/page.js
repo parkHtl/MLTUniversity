@@ -7,6 +7,7 @@ import { GlobeDemo } from "@/components/inhouse/GlobalAnimation";
 import { InfiniteMovingCardsScroll } from "@/components/inhouse/infinityCard";
 import { HeroComponent } from "@/components/inhouse/HeroComponent";
 import { BentoGrid } from "@/components/inhouse/bentoGrid";
+import {StickyScrollReveal} from "@/components/inhouse/stickyScroll";
 
 export default function Home() {
   return (
@@ -39,12 +40,13 @@ export default function Home() {
       <div>
         <ImageGridAndText />
       </div>
-      <div>
-        <InfiniteMovingCardsScroll />
-      </div>
-      <div>
-        <HowtoApply></HowtoApply>
-      </div>
+        <div>
+            <h2 className={"text-3xl font-bold mt-[50px]"}>FURTHER EDUCATION OPPORTUNITIES</h2>
+            <StickyScrollReveal/>
+        </div>
+        <div>
+            <HowtoApply></HowtoApply>
+        </div>
     </div>
   );
 }
