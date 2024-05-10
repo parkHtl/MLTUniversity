@@ -1,15 +1,8 @@
 import { cn } from "@/utils/cn";
 import React from "react";
-import {   BentoGridItem, BentoGridBase} from "@/components/acui/bento-grid";
-import {
-  IconArrowWaveRightUp,
-  IconBoxAlignRightFilled,
-  IconBoxAlignTopLeft,
-  IconClipboardCopy,
-  IconFileBroken,
-  IconSignature,
-  IconTableColumn,
-} from "@tabler/icons-react";
+import { BentoGridItem, BentoGridBase } from "@/components/acui/bento-grid";
+
+import SimpleCard from "../mui/SimpleCard";
 
 export function BentoGrid() {
   return (
@@ -32,46 +25,80 @@ const Skeleton = () => (
 );
 const items = [
   {
-    title: "The Dawn of Innovation",
-    description: "Explore the birth of groundbreaking ideas and inventions.",
-    header: <Skeleton />,
-    icon: <IconClipboardCopy className="h-4 w-4 text-neutral-500" />,
+    title: "",
+    description: "",
+    header: (
+      <img className="w-[100%] h-[100%] "
+        src="https://www.eduoneinternational.com/wp-content/uploads/2022/04/MLT.jpg"
+        alt="placeholder"
+      />
+    ),
+    icon: "",
+    src: "",
   },
+
   {
-    title: "The Digital Revolution",
-    description: "Dive into the transformative power of technology.",
-    header: <Skeleton />,
-    icon: <IconFileBroken className="h-4 w-4 text-neutral-500" />,
+    title: "",
+    description: "",
+    header: <img className="w-[100%] h-[100%]"
+    src="https://www.newswire.lk/wp-content/uploads/2023/07/2-Saegis-Campus.jpg"
+    alt="placeholder"
+  />,
+    icon: "",
   },
+
   {
-    title: "The Art of Design",
-    description: "Discover the beauty of thoughtful and functional design.",
-    header: <Skeleton />,
-    icon: <IconSignature className="h-4 w-4 text-neutral-500" />,
+    title: "",
+    description: "",
+    header: <img className="w-[100%] h-[100%]"
+    src="https://flc.losrios.edu//flc/main/img/Social-1200x630/Academics/Programs-Majors/medical_lab_tech.jpg"
+    alt="placeholder"
+  />,
+    icon: "",
   },
+
   {
-    title: "The Power of Communication",
-    description:
-      "Understand the impact of effective communication in our lives.",
-    header: <Skeleton />,
-    icon: <IconTableColumn className="h-4 w-4 text-neutral-500" />,
+    title: "",
+    description: "",
+    header: <SimpleCard />,
+    icon: "",
   },
+
   {
-    title: "The Pursuit of Knowledge",
-    description: "Join the quest for understanding and enlightenment.",
-    header: <Skeleton />,
-    icon: <IconArrowWaveRightUp className="h-4 w-4 text-neutral-500" />,
+    title: "",
+    description: "",
+    header: (
+      <img
+        className="w-[100%] h-[100%]"
+        src="https://www.usnews.com/object/image/0000015b-b66f-d19d-a7db-bfff8c710000/170428-collegetour-stock.jpg?update-time=1536955480383&size=responsive640"
+        alt="placeholder"
+      />
+    ),
+    icon: "",
   },
+
   {
-    title: "The Joy of Creation",
-    description: "Experience the thrill of bringing ideas to life.",
-    header: <Skeleton />,
-    icon: <IconBoxAlignTopLeft className="h-4 w-4 text-neutral-500" />,
+    title: "",
+    description: "",
+    header: (
+      <img
+        className="w-[100%] h-[100%]"
+        src="https://images.news18.com/ibnlive/uploads/2023/06/college-students.jpg"
+        alt="placeholder"
+      />
+    ),
+    icon: "",
   },
+
   {
-    title: "The Spirit of Adventure",
-    description: "Embark on exciting journeys and thrilling discoveries.",
-    header: <Skeleton />,
-    icon: <IconBoxAlignRightFilled className="h-4 w-4 text-neutral-500" />,
+    title: "",
+    description: "",
+    header: (
+      <img className="w-[100%] h-[100%]"
+        src="https://www.expertcampus.lk/images/Internship%20Program.jpg"
+        alt="placeholder"
+      />
+    ),
+    icon: "",
   },
 ];

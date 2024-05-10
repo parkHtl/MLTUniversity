@@ -9,7 +9,7 @@ export default function SimpleCard() {
   return (
     <div className="">
       <div className=" w-[100%]  h-[100%]">
-        <Card sx={{ maxWidth: 345, height: 250, width: 300, backgroundColor:'blue' }}>
+        <Card sx={{ maxWidth: 'full', height: 250, width: 'full',  background: 'linear-gradient(to top right, #ff4694, #160ce4)', opacity: 0.8  }}>
           <CardActionArea >
             <CardContent sx={{marginLeft:'10px'}}>
               <Typography gutterBottom variant="h5" component="div" sx={{color:'white',paddingTop:'35px'}}>
