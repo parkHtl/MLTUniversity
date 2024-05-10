@@ -28,7 +28,7 @@ export function HeroComponent() {
                 <motion.p className="font-bold text-xl md:text-6xl text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 py-4">
                     The hero section slideshow <br /> nobody asked for
                 </motion.p>
-                <button className={'px-[10px] hover:scale-105 transition-all transform-gpu duration-300 py-[5px] text-white text-[15px] font-bold border-white border-[1px] rounded-[20px]'}>Join Now</button>
+                <button className={'px-[10px] hover:scale-105 transition-all transform-gpu duration-300 py-[5px] text-white text-[15px] font-bold border-white border-[1px] rounded-[20px]'}>Apply Now</button>
             </motion.div>
         </ImagesSlider>
     );
