@@ -8,6 +8,7 @@ import { InfiniteMovingCardsScroll } from "@/components/inhouse/infinityCard";
 import { HeroComponent } from "@/components/inhouse/HeroComponent";
 import { BentoGrid } from "@/components/inhouse/bentoGrid";
 import {StickyScrollReveal} from "@/components/inhouse/stickyScroll";
+import Partners from "@/components/inhouse/Partners";
 
 export default function Home() {
   return (
@@ -37,7 +38,7 @@ export default function Home() {
 
         <BentoGrid />
       </div>
-      <div>
+      <div className="mt-16">
         <ImageGridAndText />
       </div>
         <div>
@@ -47,6 +48,13 @@ export default function Home() {
         <div>
             <HowtoApply></HowtoApply>
         </div>
+      <div className="mt-16">
+        <HowtoApply></HowtoApply>
+      </div>
+      <div className="mt-16">
+        <Partners />
+      </div>
+      
     </div>
   );
 }
