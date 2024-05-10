@@ -7,7 +7,7 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import InstagramIcon from '@mui/icons-material/Instagram';
 const Header = ()=>{
     return (
-        <div className={'flex items-center w-full h-[50px] bg-blue-800 text-gray-300 text-[14px] px-[30px] py-[5px]'}>
+        <div className={'flex items-center w-full h-[50px] bg-[#1F3042] text-gray-300 text-[14px] px-[30px] py-[5px]'}>
             <div className={'flex w-[50%]'}>
                 <span className={'mx-[8px]'}>Need help? </span>
                 <Divider orientation={'vertical'} className={'bg-gray-400 h-[20px] mx-[8px]'}></Divider>
@@ -18,9 +18,9 @@ const Header = ()=>{
                 <span className={'flex gap-[3px]'}><PhoneIphoneIcon/>+94 76 123 1234</span>
             </div>
             <div className={'flex w-[50%] justify-end gap-[10px]'}>
-                <LinkedInIcon/>
-                <FacebookIcon/>
-                <InstagramIcon/>
+                <LinkedInIcon className={'hover:scale-110 cursor-pointer transform-gpu transition-all duration-300'}/>
+                <FacebookIcon className={'hover:scale-110 cursor-pointer transform-gpu transition-all duration-300'}/>
+                <InstagramIcon className={'hover:scale-110 cursor-pointer transform-gpu transition-all duration-300'}/>
             </div>
         </div>
     )
