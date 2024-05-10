@@ -1,10 +1,8 @@
 import React from "react";
 
 const links = [
-  { name: "Open roles", href: "#" },
-  { name: "Internship program", href: "#" },
-  { name: "Our values", href: "#" },
-  { name: "Meet our leadership", href: "#" },
+  { name: "About Our Campus", href: "https://pgc.edu.lk/about-campus/" },
+ 
 ];
 const stats = [
   { name: "GRADUATION RATES", value: "92+" },
