@@ -7,10 +7,10 @@ const links = [
   { name: "Meet our leadership", href: "#" },
 ];
 const stats = [
-  { name: "Offices worldwide", value: "12" },
-  { name: "Full-time colleagues", value: "300+" },
-  { name: "Hours per week", value: "40" },
-  { name: "Paid time off", value: "Unlimited" },
+  { name: "GRADUATION RATES", value: "92+" },
+  { name: "PROGRAMS AVAILABLE FOR THE STUDENTS", value: "156+" },
+  { name: "YEARS OF GLORIOUS HISTORY", value: "31+" },
+  
 ];
 
 export default function AboutUs() {
@@ -46,14 +46,21 @@ export default function AboutUs() {
         />
       </div>
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
-        <div className="mx-auto max-w-2xl lg:mx-0">
-          <h2 className="text-4xl font-bold tracking-tight text-white sm:text-6xl">
-            Work with us
+        <div className="mx-auto max-w-6xl lg:mx-0">
+          <h2 className="text-4xl font-bold tracking-tight text-white sm:text-5xl">
+          WE ARE OPEN FOR EDUCATION, RESEARCH  AND INTERNATIONAL CO-OPERATION!
+
+
           </h2>
           <p className="mt-6 text-lg leading-8 text-gray-300">
-            Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui
-            lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat
-            fugiat aliqua.
+            We offer study abroad programmes, healthcare, education, immigration
+            services, and real estate development. PGC provides university
+            foundation, Diploma, Advance Diploma, Degree and Masters level
+            programs from leading Universities of the world. Our investment
+            portfolios are connected to Belarus, Finland, Portugal, Russia,
+            Sweden, the UK, and Uzbekistan. We have been active in the Sri
+            Lankan market since 1996. Our business is developing aggressively in
+            certain areas.
           </p>
         </div>
         <div className="mx-auto mt-10 max-w-2xl lg:mx-0 lg:max-w-none">
@@ -66,7 +73,7 @@ export default function AboutUs() {
           </div>
           <dl className="mt-16 grid grid-cols-1 gap-8 sm:mt-20 sm:grid-cols-2 lg:grid-cols-4">
             {stats.map((stat) => (
-              <div key={stat.name} className="flex flex-col-reverse">
+              <div key={stat.name} className="flex flex-col-reverse ">
                 <dt className="text-base leading-7 text-gray-300">
                   {stat.name}
                 </dt>
