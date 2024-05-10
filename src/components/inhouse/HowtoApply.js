@@ -22,7 +22,7 @@ function HowtoApply() {
         <div className="w-[60%] px-[100px] py-[30px]">
           <div className={'flex flex-col gap-[40px]'}>
             <h1 className="text-3xl  font-bold ">We Are A University Of Excellence!</h1>
-            <p className="text-lg text-justify">
+            <p className={"text-gray-600 text-[20px] leading-10 text-justify"}>
               We offer study abroad programmes, healthcare, education,
               immigration services, and real estate development. PGC provides
               university foundation, Diploma, Advance Diploma, Degree and

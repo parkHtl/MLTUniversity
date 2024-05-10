@@ -5,7 +5,7 @@ export default function Textcontent() {
     <div>
       <div>
         <h1 className="text-3xl  font-bold pb-8">DIPLOMA IN MEDICAL LABORATORY TECHNOLOGY (MLT)</h1>
-        <p className="text-lg">
+        <p className={"text-gray-600 text-[20px] leading-10 text-justify"}>
           A modern career opportunity in the employees dominated market! As part
           of the health-care team, the Medical Laboratory Technologist manages a
           large variety of laboratory tests and procedures that assist doctors

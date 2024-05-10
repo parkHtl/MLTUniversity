@@ -4,7 +4,7 @@ import ImageListItem from '@mui/material/ImageListItem';
 
 export default function ImageCard() {
   return (
-    <ImageList sx={{ width:750, height: 750 }} variant="woven" cols={3} gap={20}>
+    <ImageList sx={{ width:750, height: 500 }} variant="woven" cols={3} gap={20}>
       {itemData.map((item) => (
         <ImageListItem key={item.img}>
           <img className='hover:scale-110 transform transition duration-500 ease-in-out'
