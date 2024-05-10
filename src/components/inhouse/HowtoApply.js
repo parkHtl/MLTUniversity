@@ -1,41 +1,30 @@
 import React from "react";
-import Image from "next/image";
 
 function HowtoApply() {
   return (
     <div>
-      <div className="flex ">
-        <div className="w-[40%] bg-[#F8CA4D] flex justify-end items-center relative p-[50px]">
-          <h2 className={'text-[35px] font-extrabold w-[70%] mr-auto'}>
-            We are a university of excellence
-          </h2>
-          <div className="absolute -right-[13%] w-fit">
-            <Image
-                className={'object-cover rounded-[10px] object-center border-gray-300 border-b'}
-                src="/images/logo.png"
-                width={200}
-                height={200}
-                alt="Logo"
+      <div className="flex flex-row gap-16 items-stretch ">
+        <div className="flex w-[50%]  h-[500px] bg-slate-500">
+          <div className="flex justify-center items-center  h-full">
+            <img
+              src="https://images.unsplash.com/photo-1549388604-817d15aa0110"
+              alt="bed"
+              className="h-[400px] w-[400px]"
             />
           </div>
         </div>
-        <div className="w-[60%] px-[100px] py-[30px]">
-          <div className={'flex flex-col gap-[40px]'}>
-            <h1 className="text-3xl  font-bold ">MLT BEYOND 2023</h1>
-            <p className="text-lg text-justify">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
-              nec purus sit amet tortor tincidunt rhoncus Gathering momentum
-              from the promising journey over the past successful years, NSBM
-              sets the green university experience to the next level with the
-              Phase II. This giant step in crafting a future of greater impact
-              gives unwavering faith to envision the university’s vision and
-              purpose from a broader perspective. The Phase 2 developments in
-              another 15 acres of land adjoining the existing premises are
-              currently in progress and believed to be a key driver of the
-              NSBM’s future growth to further expand its services and
-              opportunities to the generations to come as well as to impact the
-              world at large. The master plan for Phase II encompasses the
-              following main facilities.
+        <div className=" order-last">
+          <div>
+            <h1 className="text-3xl  font-bold pb-8">We Are A University Of Excellence!</h1>
+            <p className="text-lg">
+              We offer study abroad programmes, healthcare, education,
+              immigration services, and real estate development. PGC provides
+              university foundation, Diploma, Advance Diploma, Degree and
+              Masters level programs from leading Universities of the world. Our
+              investment portfolios are connected to Belarus, Finland, Portugal,
+              Russia, Sweden, the UK, and Uzbekistan. We have been active in the
+              Sri Lankan market since 1996. Our business is developing
+              aggressively in certain areas.
             </p>
           </div>
         </div>

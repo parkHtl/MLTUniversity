@@ -9,14 +9,36 @@ export default function SimpleCard() {
   return (
     <div className="">
       <div className=" w-[100%]  h-[100%]">
-        <Card sx={{ maxWidth: 'full', height: 250, width: 'full',  background: 'linear-gradient(to top right, #ff4694, #160ce4)', opacity: 0.8  }}>
-          <CardActionArea >
-            <CardContent sx={{marginLeft:'10px'}}>
-              <Typography gutterBottom variant="h5" component="div" sx={{color:'white',paddingTop:'35px'}}>
-              International Clubs
+        <Card
+          sx={{
+            maxWidth: "full",
+            height: 250,
+            width: "full",
+            background: "linear-gradient(to top right, #ff4694, #160ce4)",
+            opacity: 0.8,
+          }}
+        >
+          <CardActionArea>
+            <CardContent sx={{ marginLeft: "10px" }}>
+              <Typography
+                gutterBottom
+                variant="h5"
+                component="div"
+                sx={{ color: "white", paddingTop: "35px" }}
+              >
+                RPL/CREDIT EXEMPTIONS
               </Typography>
-              <Typography variant="body2" color="text.secondary" sx={{color:'white',fontSize:16}}>
-              MLT is committed to bringing in the best of the world educational experience to encourage global exposure among students 
+              <Typography
+                variant="body2"
+                color="text.secondary"
+                sx={{ color: "white", fontSize: 16 }}
+              >
+                Those with work experience at a laboratory registered with PHSRC
+                or at a government establishment OR those with other relevant
+                MLT qualifications will be assessed on case by case by our
+                academic council followed with an aptitude test for providing of
+                Credit exemptions. Those who has more than 5 years work
+                experience are exempted from the CPT
               </Typography>
             </CardContent>
           </CardActionArea>
