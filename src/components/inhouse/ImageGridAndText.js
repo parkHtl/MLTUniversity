@@ -5,7 +5,7 @@ import ImageCard from "@/components/mui/ImageCard";
 function ImageGridAndText() {
   return (
     <div>
-      <div className="flex flex-row gap-16 justify-between ml-10 mr-10  ">
+      <div className="flex flex-row gap-16 justify-between w-full ">
         <div className=" flex-auto w-[40%]  ">
           <Textcontent />
         </div>
