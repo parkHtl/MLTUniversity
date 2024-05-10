@@ -9,7 +9,7 @@ import EmailIcon from '@mui/icons-material/Email';
 
 const Footer = () => {
     return (
-        <div className={'w-full flex bg-blue-800 text-gray-300 px-[20px] py-[50px] justify-around'}>
+        <div className={'w-full flex bg-[#1F3042] text-gray-300 px-[20px] py-[50px] justify-around'}>
 
             {/*contact us*/}
             <div className={' w-[30%] '}>

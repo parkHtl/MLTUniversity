@@ -21,21 +21,16 @@ function HowtoApply() {
         </div>
         <div className="w-[60%] px-[100px] py-[30px]">
           <div className={'flex flex-col gap-[40px]'}>
-            <h1 className="text-3xl  font-bold ">MLT BEYOND 2023</h1>
+            <h1 className="text-3xl  font-bold ">We Are A University Of Excellence!</h1>
             <p className="text-lg text-justify">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
-              nec purus sit amet tortor tincidunt rhoncus Gathering momentum
-              from the promising journey over the past successful years, NSBM
-              sets the green university experience to the next level with the
-              Phase II. This giant step in crafting a future of greater impact
-              gives unwavering faith to envision the university’s vision and
-              purpose from a broader perspective. The Phase 2 developments in
-              another 15 acres of land adjoining the existing premises are
-              currently in progress and believed to be a key driver of the
-              NSBM’s future growth to further expand its services and
-              opportunities to the generations to come as well as to impact the
-              world at large. The master plan for Phase II encompasses the
-              following main facilities.
+              We offer study abroad programmes, healthcare, education,
+              immigration services, and real estate development. PGC provides
+              university foundation, Diploma, Advance Diploma, Degree and
+              Masters level programs from leading Universities of the world. Our
+              investment portfolios are connected to Belarus, Finland, Portugal,
+              Russia, Sweden, the UK, and Uzbekistan. We have been active in the
+              Sri Lankan market since 1996. Our business is developing
+              aggressively in certain areas.
             </p>
           </div>
         </div>
