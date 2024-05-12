@@ -4,14 +4,12 @@ import ImageCard from "@/components/mui/ImageCard";
 
 function ImageGridAndText() {
   return (
-    <div>
-      <div className="flex flex-row gap-16 justify-between w-full ">
-        <div className=" flex-auto w-[40%]  ">
-          <Textcontent />
-        </div>
-        <div className="flex-end  ">
-          <ImageCard />
-        </div>
+    <div className="flex flex-col items-center justify-center md:flex-row md:gap-16 md:justify-between">
+      <div className="w-full md:w-2/5">
+        <Textcontent />
+      </div>
+      <div className="mt-8 md:mt-0 w-full md:w-3/5">
+        <ImageCard />
       </div>
     </div>
   );

@@ -6,12 +6,12 @@ function HowtoApply() {
     <div>
       <div className="flex ">
         <div className="w-[40%] bg-[#F8CA4D] flex justify-end items-center relative p-[50px]">
-          <h2 className={'text-[35px] font-extrabold w-[70%] mr-auto'}>
+          <h2 className={'text-[30px] font-extrabold w-[65%] mr-auto'}>
             We are a university of excellence
           </h2>
           <div className="absolute -right-[13%] w-fit">
             <Image
-                className={'object-cover rounded-[10px] object-center border-gray-300 border-b'}
+                className={'object-cover rounded-[10px] object-center border-gray-300 border-b hover:scale-110 transform transition duration-500 ease-in-out'}
                 src="/images/logo.png"
                 width={200}
                 height={200}
