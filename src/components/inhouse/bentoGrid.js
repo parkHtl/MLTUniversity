@@ -8,13 +8,13 @@ export function BentoGrid() {
   return (
     <BentoGridBase className="w-full ">
       {items.map((item, i) => (
-        <BentoGridItem
+        <BentoGridItem  
           key={i}
           title={item.title}
           description={item.description}
           header={item.header}
           icon={item.icon}
-          className={i === 3 || i === 6 ? "md:col-span-2" : ""}
+          className={i === 3 || i === 6 ? "md:col-span-2 hover:scale-110 transform transition duration-500 ease-in-out" : " hover:scale-125 transform transition duration-500 ease-in-out"}
         />
       ))}
     </BentoGridBase>
