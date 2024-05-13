@@ -5,10 +5,10 @@ const NavBar = () => {
   return (
     <div
       className={
-        "w-full bg-white z-[100] sticky top-0 h-[70px] border-[1px] border-gray-300 py-[5px] flex flex-col md:flex-row items-center px-[20px] justify-between"
+        "w-full bg-white z-[100] sticky top-0 border-[1px] border-gray-300 py-[5px] flex flex-col md:flex-row items-center px-[20px] justify-between"
       }
     >
-      <div className={"w-[70px] h-full "}>
+      <div className={"w-[70px] h-full"}>
         <Image
           className={
             "object-cover rounded-[10px] object-center border-gray-300 border-b"
@@ -29,7 +29,7 @@ const NavBar = () => {
             <a href="/">Home</a>
           </li>
           <li>
-            <a href="#">Contact Us</a>
+            <Link href="/testing">Contact US</Link>
           </li>
           <li>
             <Link href="/aboutus">About Us</Link>

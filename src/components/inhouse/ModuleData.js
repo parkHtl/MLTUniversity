@@ -23,12 +23,12 @@ const ModuleData = () => {
   ];
 
   return (
-    <div className="flex flex-row gap-32 justify-center  ">
-      <div className="  ">
+    <div className="flex flex-col md:flex-row md:gap-32 justify-center">
+      <div className="md:w-1/2">
         <ModuleList modules={modules} />
       </div>
-      <div className="">
-        <h2 className="text-md font-bold mt-2 ">Electives (choice of three)</h2>
+      <div className="md:w-1/2">
+        <h2 className="text-md font-bold mt-2">Electives (choice of three)</h2>
         <ModuleList modules={modules2} />
       </div>
     </div>

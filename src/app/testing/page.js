@@ -10,18 +10,18 @@ import { Tab } from "@mui/material";
 
 export default function Page() {
   return (
-    <div>
-        <div>
-          <h2 className={"text-2xl underline text-center font-bold mt-[50px]"}>
-            FURTHER EDUCATION OPPORTUNITIES
-          </h2>
-          <StickyScrollReveal />
-        </div>
+    <div className="px-2 md:px-10 lg:px-20 xl:px-40">
+      <div>
+        <h2 className={"text-2xl underline text-center font-bold mt-[50px]"}>
+          FURTHER EDUCATION OPPORTUNITIES
+        </h2>
+        <StickyScrollReveal />
+      </div>
       <div className="flex flex-col  ">
         <h1 className="text-center text-2xl font-bold mt-5 mb-5 underline">
           2 - YEAR DIPLOMA IN MEDICAL LABORATORY TECHNOLOGY (MLT)
         </h1>
-        <p className="text-center px-10">
+        <p className="text-center px-2 md:px-10">
           Delivered since 1996 A modern career opportunity in the employees
           dominated market! As part of the health-care team, the Medical
           Laboratory Technologist manages a large variety of laboratory tests
@@ -43,7 +43,7 @@ export default function Page() {
         <h2 className="text-center text-lg font-bold">
           ONLINE / ON CAMPUS / ON THE JOB - hybrid delivery method.
         </h2>
-        <p className="text-center px-10">
+        <p className="text-center px-2 md:px-10">
           The programme objective is employability. Hence the PGC will put
           emphasis on the skill competencies levels and on the job training as
           the Cofocus of the delivery. For this purpose, we will be using the
@@ -63,7 +63,7 @@ export default function Page() {
       </div>
       <div className="flex flex-col mt-5 mb-5 ">
         <h1 className="text-center text-2xl font-bold mt-5 mb-5 underline">
-        GENERAL MODULES
+          GENERAL MODULES
         </h1>
         <ModuleData />
       </div>
@@ -71,9 +71,6 @@ export default function Page() {
       <div className="w-full mt-5">
         <Table />
 
-        <div className=" mt-10">
-          <Partners />
-        </div>
         <div className="mt-10">
           <Reference />
         </div>
