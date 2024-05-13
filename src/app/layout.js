@@ -19,9 +19,9 @@ export default function RootLayout({ children }) {
         <div className="flex flex-col min-h-screen">
           <Header />
           <NavBar />
-          <MainContent>
+          
             {children}
-          </MainContent>
+          
           <Footer />
         </div>
       </body>
