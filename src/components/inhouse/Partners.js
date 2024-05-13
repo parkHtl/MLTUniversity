@@ -3,22 +3,22 @@ import React from "react";
 export default function Partners() {
   return (
     <>
-      <div>
+      <div className="mx-auto max-w-7xl">
         <div className="mt-10">
-          <h2 className=" px-5 py-5 text-center  font-bold text-2xl">
+          <h2 className="px-5 py-5 text-center font-bold text-2xl">
             INDUSTRY TRAINING COLLABORATIVE PARTNERS
           </h2>
-          <p className="px-5 py-5 text-center  text-gray-800">
+          <p className="px-5 py-5 text-center text-gray-800">
             Park Hospital | Lanka Hospital | Nawaloka Care Labs | Forte
             Diagnostics | Sirisanda Hospital
           </p>
 
-          <div className="px-5 py-1  flex justify-center gap-8 rounded-3xl   ">
-            <div className=" w-[150px] h-[150px] hover:scale-110 transform transition duration-500 ease-in-out">
+          <div className="px-5 py-1 flex flex-wrap justify-center gap-8 rounded-3xl">
+            <div className="w-[150px] h-[150px] hover:scale-110 transform transition duration-500 ease-in-out">
               <img
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoou6csIy1BanMM16RATXB2n2kJ1sMh_GoxoKeFweM_Q&s"
                 alt="image"
-                className="w-full h-full hover:scale-110 transform transition duration-500 ease-in-out "
+                className="w-full h-full hover:scale-110 transform transition duration-500 ease-in-out"
               />
             </div>
             <div className=" w-[150px] h-[150px] hover:scale-110 transform transition duration-500 ease-in-out">
@@ -49,10 +49,11 @@ export default function Partners() {
                 className="w-full h-full hover:scale-110 transform transition duration-500 ease-in-out "
               />
             </div>
+            {/* Add more partner images here */}
           </div>
         </div>
         <div className="mt-5">
-          <h2 className=" px-5 py-5 text-center font-bold text-2xl">
+          <h2 className="px-5 py-5 text-center font-bold text-2xl">
             RECOGNITIONS AND ACCREDITATIONS
           </h2>
           <p className="px-5 py-5 text-center text-gray-800">
@@ -62,12 +63,12 @@ export default function Partners() {
             (TVEC)
           </p>
 
-          <div className="px-5 py-1  flex justify-center gap-8  rounded-3xl  ">
-            <div className="  w-[150px] h-[150px] hover:scale-125 transform transition duration-500 ease-in-out">
+          <div className="px-5 py-1 flex flex-wrap justify-center gap-8 rounded-3xl">
+            <div className="w-[150px] h-[150px] hover:scale-125 transform transition duration-500 ease-in-out">
               <img
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaoVkEGm-EBDnBPBuKMHxdofccmBmN9UVSCrugZ_qA6Q&s"
                 alt="image"
-                className="w-full h-full hover:scale-110 transform transition duration-500 ease-in-out "
+                className="w-full h-full hover:scale-110 transform transition duration-500 ease-in-out"
               />
             </div>
             <div className=" w-[150px] h-[150px] hover:scale-125 transform transition duration-500 ease-in-out">
@@ -77,6 +78,7 @@ export default function Partners() {
                 className="w-full h-full hover:scale-110 transform transition duration-500 ease-in-out "
               />
             </div>
+            {/* Add more recognition/accreditation images here */}
           </div>
         </div>
       </div>
