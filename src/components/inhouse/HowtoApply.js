@@ -30,7 +30,7 @@ function HowtoApply() {
               investment portfolios are connected to Belarus, Finland, Portugal,
               Russia, Sweden, the UK, and Uzbekistan. We have been active in the
               Sri Lankan market since 1996. Our business is developing
-              aggressively in certain areas.
+              aggressively in certain areas
             </p>
           </div>
         </div>
