@@ -10,13 +10,13 @@ function HowtoApply() {
             We are a university of excellence
           </h2>
           <div className="absolute -right-[13%] w-fit">
-            <Image
-                className={'object-cover rounded-[10px] object-center border-gray-300 border-b hover:scale-110 transform transition duration-500 ease-in-out'}
-                src="/images/logo.png"
-                width={200}
-                height={200}
-                alt="Logo"
-            />
+            {/*<Image*/}
+            {/*    className={'object-cover rounded-[10px] object-center border-gray-300 border-b hover:scale-110 transform transition duration-500 ease-in-out'}*/}
+            {/*    src="/images/logo.png"*/}
+            {/*    width={200}*/}
+            {/*    height={200}*/}
+            {/*    alt="Logo"*/}
+            {/*/>*/}
           </div>
         </div>
         <div className="w-full md:w-[60%] md:px-[100px] py-[30px]">
