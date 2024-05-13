@@ -13,7 +13,7 @@ import FadeInComponent from "@/components/inhouse/fadeInComponent";
 
 export default function Home() {
   return (
-    <div>
+    <div className=" px-5 py-5  min-h-[200vh] w-full">
       <HeroComponent />
 
       <div className="flex flex-col md:flex-row items-center md:items-center md:gap-16 mt-8 md:mt-12">

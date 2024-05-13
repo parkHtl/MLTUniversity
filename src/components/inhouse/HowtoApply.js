@@ -4,8 +4,8 @@ import Image from "next/image";
 function HowtoApply() {
   return (
     <div>
-      <div className="flex ">
-        <div className="w-[40%] bg-[#F8CA4D] flex justify-end items-center relative p-[50px]">
+      <div className="flex flex-col md:flex-row  ">
+        <div className="md:w-[40%] bg-[#F8CA4D] flex justify-end items-center relative md:p-[50px]">
           <h2 className={'text-[30px] font-extrabold w-[65%] mr-auto'}>
             We are a university of excellence
           </h2>
@@ -19,7 +19,7 @@ function HowtoApply() {
             />
           </div>
         </div>
-        <div className="w-[60%] px-[100px] py-[30px]">
+        <div className="w-full md:w-[60%] md:px-[100px] py-[30px]">
           <div className={'flex flex-col gap-[40px]'}>
             <h1 className="text-3xl  font-bold ">We Are A University Of Excellence!</h1>
             <p className={"text-gray-600 text-[20px] leading-10 text-justify"}>
