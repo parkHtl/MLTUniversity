@@ -30,19 +30,20 @@ const Footer = () => {
         </div>
       </div>
       {/*contact info*/}
-      <div className={"w-full md:w-[30%] flex flex-col gap-4"}>
+      <div className={"w-full md:w-[30%] flex flex-col gap-4 mt-3"}>
         <h1 className={"text-xl md:text-3xl my-4"}>Contact Us</h1>
         <div className={"flex gap-4 items-center"}>
-          <LocationOnIcon /> <span>Put/22 address here</span>
+          <LocationOnIcon /> <span>No. 111-1/2, Maya Avenue, Colombo 006 - Sri Lanka.</span>
         </div>
-        <div className={"flex gap-4 items-center"}>
+        {/* <div className={"flex gap-4 items-center"}>
           <EmailIcon /> <span>inquiries@gmail.com</span>
+        </div> */}
+        <div className={"flex gap-4 items-center"}>
+          <CallIcon /> <span>+94 112 502 012 / 114 199 333
+</span>
         </div>
         <div className={"flex gap-4 items-center"}>
-          <CallIcon /> <span>+94 11 123 1234</span>
-        </div>
-        <div className={"flex gap-4 items-center"}>
-          <PhoneIphoneIcon /> <span>+94 76 123 1234</span>
+          <PhoneIphoneIcon /> <span>+94 701 566 566</span>
         </div>
       </div>
     </div>

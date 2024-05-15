@@ -22,16 +22,16 @@ export default function SimpleCard() {
             <CardContent sx={{ marginLeft: "10px" }}>
               <Typography
                 gutterBottom
-                variant="h5"
+                variant="h6"
                 component="div"
-                sx={{ color: "white", paddingTop: "35px" }}
+                sx={{ color: "white", paddingTop: "5px" }}
               >
                 RPL/CREDIT EXEMPTIONS
               </Typography>
               <Typography
                 variant="body2"
                 color="text.secondary"
-                sx={{ color: "white", fontSize: 16 }}
+                sx={{ color: "white" ,fontSize: 13}}
               >
                 Those with work experience at a laboratory registered with PHSRC
                 or at a government establishment OR those with other relevant
