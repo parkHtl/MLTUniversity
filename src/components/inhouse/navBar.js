@@ -16,7 +16,7 @@ const NavBar = () => {
           src="/images/logo.png"
           width={200}
           height={200}
-          alt="Logo"
+          alt="//Logo"
         />
       </div>
       <div className={"w-full md:w-[60%] h-full flex justify-center md:justify-end"}>
@@ -29,7 +29,7 @@ const NavBar = () => {
             <a href="/">Home</a>
           </li>
           <li>
-            <Link href="/contactus">Contact US</Link>
+            <Link href="/contactus">Contact Us</Link>
           </li>
           <li>
             <Link href="/aboutus">About Us</Link>
