@@ -13,7 +13,7 @@ const NavBar = () => {
           className={
             "object-cover rounded-[10px] object-center border-gray-300 border-b"
           }
-          src="images/logo.png"
+          src="images/pgcLogo.png"
           width={200}
           height={200}
           alt="//Logo"
