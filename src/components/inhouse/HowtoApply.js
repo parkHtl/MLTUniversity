@@ -21,7 +21,7 @@ function HowtoApply() {
               className={
                 " md:h-[250px] md:w-[200px] h-[140px] w-[125px] rounded-[10px] md:object-center  border-gray-300 border-b hover:scale-110 transform transition duration-500 ease-in-out"
               }
-              src="/images/logo.png"
+              src="/images/pgcLogo.png"
               width={200}
               height={200}
               alt="Logo"
