@@ -17,9 +17,9 @@ export default function Home() {
   return (
     <div className=" px-3 py-5  min-h-[200vh] w-full">
       <HeroComponent />
-      <div className="mt-2">
-        <CourseContent />
-      </div>
+      {/*<div className="mt-2">*/}
+      {/*  <CourseContent />*/}
+      {/*</div>*/}
 
       <div className="flex flex-col md:flex-row items-center md:items-center md:gap-16 mt-8 md:mt-12">
         <div className="md:ml-0 -ml-12">
