@@ -17,6 +17,14 @@ export default function RootLayout({ children }) {
       <html lang="en">
       <head>
         <title>PGC | MEDICAL LABORATORY TECHNOLOGY</title>
+          <!-- Google tag (gtag.js) --> <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16517770151"></script> <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){
+              dataLayer.push(arguments)
+          }
+          gtag('js', new Date());
+          gtag('config', 'AW-16517770151');
+          </script>
       </head>
       <body className={inter.className + ' relative'}>
       <div className="flex flex-col min-h-screen">
