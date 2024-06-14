@@ -14,17 +14,20 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+      <html lang="en">
+      <head>
+        <title>PGC | MEDICAL LABORATORY TECHNOLOGY</title>
+      </head>
       <body className={inter.className + ' relative'}>
-        <div className="flex flex-col min-h-screen">
-          <Header />
-          <NavBar />
-          
-            {children}
-          
-          <Footer />
-        </div>
+      <div className="flex flex-col min-h-screen">
+        <Header/>
+        <NavBar/>
+
+        {children}
+
+        <Footer/>
+      </div>
       </body>
-    </html>
+      </html>
   );
 }
