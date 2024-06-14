@@ -69,9 +69,9 @@ function CourseContent() {
               <div className="grid gap-1">
                 <h3 className="text-xl font-bold">Career Prospects</h3>
                 <p className="text-gray-500 dark:text-gray-400">
-                  As a Medical Laboratory Technician, you'll have the opportunity to work in hospitals, clinics,
+                  {` As a Medical Laboratory Technician, you'll have the opportunity to work in hospitals, clinics,
                   research laboratories, and more. The demand for skilled MLTs is expected to grow significantly in the
-                  coming years.
+                  coming years.`}
                 </p>
               </div>
               <div className="grid gap-1">
@@ -121,8 +121,8 @@ function CourseContent() {
               <div className="grid gap-1">
                 <h3 className="text-xl font-bold">Immunology</h3>
                 <p className="text-gray-500 dark:text-gray-400">
-                  Explore the body's immune system and its response to foreign substances, including the diagnosis of
-                  immune-related disorders.
+                  {` Explore the body's immune system and its response to foreign substances, including the diagnosis of
+                  immune-related disorders.`}
                 </p>
               </div>
               <div className="grid gap-1">
@@ -218,8 +218,8 @@ function CourseContent() {
                   <ChevronDownIcon className="h-5 w-5 transition-transform [&[data-state=open]]:rotate-180" />
                 </CollapsibleTrigger>
                 <CollapsibleContent className="px-4 py-3 text-gray-500 dark:text-gray-400">
-                  As a certified MLT, you'll be qualified to work in hospitals, clinics, research laboratories, and
-                  other healthcare settings, performing a wide range of essential medical tests and procedures.
+                  {`As a certified MLT, you'll be qualified to work in hospitals, clinics, research laboratories, and
+                  other healthcare settings, performing a wide range of essential medical tests and procedures.`}
                 </CollapsibleContent>
               </Collapsible>
               <Collapsible className="space-y-2">
