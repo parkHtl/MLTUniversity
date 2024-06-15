@@ -51,9 +51,11 @@ function CourseContent() {
           <div className="container px-4 md:px-6">
             <div className="grid gap-6 lg:grid-cols-2 lg:gap-12">
               <div>
-                <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">About the MLT Course</h2>
-                <p className="mt-4 text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-                  {`A modern career opportunity in the employees dominated market! As part of the 
+                <FadeInComponent><h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">About the
+                  MLT Course</h2></FadeInComponent>
+                <FadeInComponent>
+                  <p className="mt-4 text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
+                    {`A modern career opportunity in the employees dominated market! As part of the 
 health-care team, the Medical Laboratory Technologist manages a large variety of
 laboratory tests and procedures that assist doctors in the diagnosis, treatment, and
 prevention of diseases. PGC programme provides a scientific foundation as well a thorough 
@@ -61,36 +63,41 @@ competency-based training solution enabling the students to develop hands on kno
 to acquire employment in the industry. The fact that we closely work with TOP end industry 
 partners provide our students the access to most modern methodologies and equipment 
 which prepares graduates ready for employment across the globe.`}
-                </p>
-                <div className="mt-6 flex flex-col gap-4 sm:flex-row">
-                  <div className="flex items-center gap-2">
-                    <ClockIcon className="h-6 w-6 text-gray-500 dark:text-gray-400"/>
-                    <span className="text-gray-500 dark:text-gray-400">Duration: 2 years</span>
+                  </p>
+                </FadeInComponent>
+                <FadeInComponent>
+                  <div className="mt-6 flex flex-col gap-4 sm:flex-row">
+                    <div className="flex items-center gap-2">
+                      <ClockIcon className="h-6 w-6 text-gray-500 dark:text-gray-400"/>
+                      <span className="text-gray-500 dark:text-gray-400">Duration: 2 years</span>
+                    </div>
+                    <div className="flex items-center gap-2">
+                      <AwardIcon className="h-6 w-6 text-gray-500 dark:text-gray-400"/>
+                      <span className="text-gray-500 dark:text-gray-400">NAACLS Accredited</span>
+                    </div>
                   </div>
-                  <div className="flex items-center gap-2">
-                    <AwardIcon className="h-6 w-6 text-gray-500 dark:text-gray-400"/>
-                    <span className="text-gray-500 dark:text-gray-400">NAACLS Accredited</span>
-                  </div>
-                </div>
+                </FadeInComponent>
               </div>
               <div className="grid gap-6">
                 <div className="grid gap-1">
-                  <h3 className="text-xl font-bold">Career Prospects</h3>
-                  <p className="text-gray-500 dark:text-gray-400">
+                  <FadeInComponent><h3 className="text-xl font-bold">Career Prospects</h3></FadeInComponent>
+                  <FadeInComponent><p className="text-gray-500 dark:text-gray-400">
                     {` As a Medical Laboratory Technician, you'll have the opportunity to work in hospitals, clinics,
                   research laboratories, and more. The demand for skilled MLTs is expected to grow significantly in the
                   coming years.`}
-                  </p>
+                  </p></FadeInComponent>
                 </div>
                 <div className="grid gap-1">
-                  <h3 className="text-xl font-bold">Curriculum Highlights</h3>
-                  <ul className="list-disc space-y-2 pl-6 text-gray-500 dark:text-gray-400">
-                    <li>{`Laboratory Management Laboratory Techniques`}</li>
-                    <li>{`Hematology & Blood Bank Serology`}</li>
-                    <li>{`Microbiology and Immunology`}</li>
-                    <li>{`Histopathology`}</li>
-                    <li>{`Genetics & Molecular Biology`}</li>
-                  </ul>
+                  <FadeInComponent><h3 className="text-xl font-bold">Curriculum Highlights</h3></FadeInComponent>
+                  <FadeInComponent>
+                    <ul className="list-disc space-y-2 pl-6 text-gray-500 dark:text-gray-400">
+                      <li>{`Laboratory Management Laboratory Techniques`}</li>
+                      <li>{`Hematology & Blood Bank Serology`}</li>
+                      <li>{`Microbiology and Immunology`}</li>
+                      <li>{`Histopathology`}</li>
+                      <li>{`Genetics & Molecular Biology`}</li>
+                    </ul>
+                  </FadeInComponent>
                 </div>
               </div>
             </div>
@@ -102,51 +109,53 @@ which prepares graduates ready for employment across the globe.`}
           <div className="container px-4 md:px-6">
             <div className="grid gap-6">
               <div className="text-center">
-                <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Curriculum Overview</h2>
-                <p className="mt-4  text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
+                <FadeInComponent><h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Curriculum
+                  Overview</h2></FadeInComponent>
+                <FadeInComponent><p
+                    className="mt-4  text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
                   Explore the comprehensive curriculum that covers all the essential aspects of medical laboratory
                   technology.
-                </p>
+                </p></FadeInComponent>
               </div>
               <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
                 <div className="grid gap-1">
-                  <h3 className="text-xl font-bold">Hematology</h3>
-                  <p className="text-gray-500 dark:text-gray-400">
+                  <FadeInComponent><h3 className="text-xl font-bold">Hematology</h3></FadeInComponent>
+                  <FadeInComponent><p className="text-gray-500 dark:text-gray-400">
                     Study the formation, function, and abnormalities of blood cells, as well as coagulation processes.
-                  </p>
+                  </p></FadeInComponent>
                 </div>
                 <div className="grid gap-1">
-                  <h3 className="text-xl font-bold">Clinical Chemistry</h3>
-                  <p className="text-gray-500 dark:text-gray-400">
+                  <FadeInComponent><h3 className="text-xl font-bold">Clinical Chemistry</h3></FadeInComponent>
+                  <FadeInComponent><p className="text-gray-500 dark:text-gray-400">
                     Analyze the chemical composition of body fluids, including the detection and measurement of various
                     analytes.
-                  </p>
+                  </p></FadeInComponent>
                 </div>
                 <div className="grid gap-1">
-                  <h3 className="text-xl font-bold">Microbiology</h3>
-                  <p className="text-gray-500 dark:text-gray-400">
+                  <FadeInComponent><h3 className="text-xl font-bold">Microbiology</h3></FadeInComponent>
+                  <FadeInComponent><p className="text-gray-500 dark:text-gray-400">
                     Identify and study the characteristics of microorganisms, including bacteria, viruses, and fungi.
-                  </p>
+                  </p></FadeInComponent>
                 </div>
                 <div className="grid gap-1">
-                  <h3 className="text-xl font-bold">Immunology</h3>
-                  <p className="text-gray-500 dark:text-gray-400">
+                  <FadeInComponent><h3 className="text-xl font-bold">Immunology</h3></FadeInComponent>
+                  <FadeInComponent><p className="text-gray-500 dark:text-gray-400">
                     {` Explore the body's immune system and its response to foreign substances, including the diagnosis of
                   immune-related disorders.`}
-                  </p>
+                  </p></FadeInComponent>
                 </div>
                 <div className="grid gap-1">
-                  <h3 className="text-xl font-bold">Urinalysis</h3>
-                  <p className="text-gray-500 dark:text-gray-400">
+                  <FadeInComponent><h3 className="text-xl font-bold">Urinalysis</h3></FadeInComponent>
+                  <FadeInComponent><p className="text-gray-500 dark:text-gray-400">
                     Learn the techniques and procedures for the physical, chemical, and microscopic examination of urine
                     samples.
-                  </p>
+                  </p></FadeInComponent>
                 </div>
                 <div className="grid gap-1">
-                  <h3 className="text-xl font-bold">Phlebotomy</h3>
-                  <p className="text-gray-500 dark:text-gray-400">
+                  <FadeInComponent><h3 className="text-xl font-bold">Phlebotomy</h3></FadeInComponent>
+                  <FadeInComponent><p className="text-gray-500 dark:text-gray-400">
                     Develop proficiency in the collection and handling of blood samples for various laboratory tests.
-                  </p>
+                  </p></FadeInComponent>
                 </div>
               </div>
             </div>
@@ -158,38 +167,51 @@ which prepares graduates ready for employment across the globe.`}
         <section id="details" className="w-full py-12 md:py-24 lg:py-32 bg-gray-100 dark:bg-gray-800">
           <div className="container px-4 md:px-6 space-y-8">
             <div className="text-center space-y-4">
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Course Details</h2>
-              <p className="max-w-[700px] mx-auto text-gray-500 md:text-xl dark:text-gray-400">
+              <FadeInComponent><h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Course
+                Details</h2></FadeInComponent>
+              <FadeInComponent><p className="max-w-[700px] mx-auto text-gray-500 md:text-xl dark:text-gray-400">
                 Explore the details of the Natural Language Processing Techniques course.
-              </p>
+              </p></FadeInComponent>
             </div>
             <div className="grid gap-6 sm:grid-cols-2 md:grid-cols-3">
-              <div className="space-y-2">
-                <h3 className="text-xl font-bold">Duration</h3>
-                <p className="text-gray-500 dark:text-gray-400">8 weeks, 2 hours per week</p>
-              </div>
-              <div className="space-y-2">
-                <h3 className="text-xl font-bold">Schedule</h3>
-                <p className="text-gray-500 dark:text-gray-400">Weekdays, 7 PM - 9 PM</p>
-              </div>
-              <div className="space-y-2">
-                <h3 className="text-xl font-bold">Delivery Mode</h3>
-                <p className="text-gray-500 dark:text-gray-400">Online (live sessions)</p>
-              </div>
-              <div className="space-y-2">
-                <h3 className="text-xl font-bold">Certification</h3>
-                <p className="text-gray-500 dark:text-gray-400">Certificate of Completion</p>
-              </div>
-              <div className="space-y-2">
-                <h3 className="text-xl font-bold">Prerequisites</h3>
-                <p className="text-gray-500 dark:text-gray-400">
-                  Basic understanding of programming and machine learning
-                </p>
-              </div>
-              <div className="space-y-2">
-                <h3 className="text-xl font-bold">Language</h3>
-                <p className="text-gray-500 dark:text-gray-400">English</p>
-              </div>
+              <FadeInComponent>
+                <div className="space-y-2">
+                  <h3 className="text-xl font-bold">Duration</h3>
+                  <p className="text-gray-500 dark:text-gray-400">8 weeks, 2 hours per week</p>
+                </div>
+              </FadeInComponent>
+              <FadeInComponent>
+                <div className="space-y-2">
+                  <h3 className="text-xl font-bold">Schedule</h3>
+                  <p className="text-gray-500 dark:text-gray-400">Weekdays, 7 PM - 9 PM</p>
+                </div>
+              </FadeInComponent>
+              <FadeInComponent>
+                <div className="space-y-2">
+                  <h3 className="text-xl font-bold">Delivery Mode</h3>
+                  <p className="text-gray-500 dark:text-gray-400">Online (live sessions)</p>
+                </div>
+              </FadeInComponent>
+              <FadeInComponent>
+                <div className="space-y-2">
+                  <h3 className="text-xl font-bold">Certification</h3>
+                  <p className="text-gray-500 dark:text-gray-400">Certificate of Completion</p>
+                </div>
+              </FadeInComponent>
+              <FadeInComponent>
+                <div className="space-y-2">
+                  <h3 className="text-xl font-bold">Prerequisites</h3>
+                  <p className="text-gray-500 dark:text-gray-400">
+                    Basic understanding of programming and machine learning
+                  </p>
+                </div>
+              </FadeInComponent>
+              <FadeInComponent>
+                <div className="space-y-2">
+                  <h3 className="text-xl font-bold">Language</h3>
+                  <p className="text-gray-500 dark:text-gray-400">English</p>
+                </div>
+              </FadeInComponent>
             </div>
           </div>
         </section>
