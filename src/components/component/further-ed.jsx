@@ -28,7 +28,7 @@ export function FurtherEd() {
                     alt="Web Development Bootcamp"
                     className="rounded-lg object-cover w-full aspect-[4/3]"
                     height={300}
-                    src="/placeholder.svg"
+                    src="/images/2.png"
                     width={400}/>
                 <h3 className="text-xl font-semibold">Assured admission to bachelors</h3>
                 <p className="text-gray-500 dark:text-gray-400">PGC Diploma in MLT Students are assured admission to bachelors studies within an
@@ -45,7 +45,7 @@ export function FurtherEd() {
                     alt="Data Science Certification"
                     className="rounded-lg object-cover w-full aspect-[4/3]"
                     height={300}
-                    src="/placeholder.svg"
+                    src="/images/4.png"
                     width={400}/>
                 <h3 className="text-xl font-semibold">Transfer to overseas</h3>
                 <p className="text-gray-500 dark:text-gray-400">students could opt to transfer to any healthcare related
@@ -63,7 +63,7 @@ export function FurtherEd() {
                     alt="Digital Marketing Masterclass"
                     className="rounded-lg object-cover w-full aspect-[4/3]"
                     height={300}
-                    src="/placeholder.svg"
+                    src="/images/6.png"
                     width={400}/>
                 <h3 className="text-xl font-semibold">University partners</h3>
                 <p className="text-gray-500 dark:text-gray-400">More than 60 University partners in
