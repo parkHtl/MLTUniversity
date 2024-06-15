@@ -104,7 +104,7 @@ which prepares graduates ready for employment across the globe.`}
           </div>
         </section>
 
-      <FadeInComponent>
+
         <section className="w-full py-12 md:py-24 lg:py-32">
           <div className="container px-4 md:px-6">
             <div className="grid gap-6">
@@ -161,9 +161,8 @@ which prepares graduates ready for employment across the globe.`}
             </div>
           </div>
         </section>
-      </FadeInComponent>
 
-      <FadeInComponent>
+
         <section id="details" className="w-full py-12 md:py-24 lg:py-32 bg-gray-100 dark:bg-gray-800">
           <div className="container px-4 md:px-6 space-y-8">
             <div className="text-center space-y-4">
@@ -215,9 +214,7 @@ which prepares graduates ready for employment across the globe.`}
             </div>
           </div>
         </section>
-      </FadeInComponent>
 
-      <FadeInComponent>
         <section className="w-full py-12 md:py-24 lg:py-32">
           <div className="container px-4 md:px-6">
             <div className="space-y-8">
@@ -278,7 +275,6 @@ which prepares graduates ready for employment across the globe.`}
             </div>
           </div>
         </section>
-      </FadeInComponent>
     </div>
   )
 }
