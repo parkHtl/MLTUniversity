@@ -14,7 +14,7 @@ export default function ImageCard() {
 
   return (
     <ImageList
-      sx={{ width: 'full', height: 500 , paddingRight: '20px'}}
+      sx={{ width: 'full', height: 500 , paddingRight: '20px', overflow:'hidden'}}
       variant="woven"
       cols={3}
       gap={20}

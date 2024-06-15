@@ -1,24 +1,31 @@
+'use client';
 import React from "react";
+import {Button} from "@mui/material";
+import Link from "next/link"
 
 export default function Textcontent() {
   return (
     <div>
       <div>
-        <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold pb-8">
-          DIPLOMA IN MEDICAL LABORATORY TECHNOLOGY (MLT)
-        </h1>
-        <p className="text-gray-600 text-base md:text-lg lg:text-xl leading-7 md:leading-9 lg:leading-10 text-justify pr-5">
-          A modern career opportunity in the employees dominated market! As part
-          of the health-care team, the Medical Laboratory Technologist manages a
-          large variety of laboratory tests and procedures that assist doctors
-          in the diagnosis, treatment, and prevention of diseases. PGC programme
-          provides a scientific foundation as well a thorough competency-based
-          training solution enabling the students to develop hands-on knowledge
-          to acquire employment in the industry. The fact that we closely work
-          with TOP end industry partners provide our students the access to most
-          modern methodologies and equipment which prepares graduates ready for
-          employment across the globe.
+        <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Want to Learn more</h2>
+        <p className="max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
+          Learn more about this General modules, Recognitions and Accreditation and more or download our Brochure.
         </p>
+        <Link
+            href="#"
+            className="inline-flex h-10 items-center justify-center rounded-md bg-gray-900 px-8 text-sm font-medium text-gray-50 shadow transition-colors hover:bg-gray-900/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:bg-gray-50 dark:text-gray-900 dark:hover:bg-gray-50/90 dark:focus-visible:ring-gray-300"
+            prefetch={false}
+        >
+          Download Brochure
+        </Link>
+
+        <Link
+            href="/fulldetails"
+            className=" ml-[10px] inline-flex h-10 items-center justify-center rounded-md border border-gray-200 border-gray-200 bg-white px-8 text-sm font-medium shadow-sm transition-colors hover:bg-gray-100 hover:text-gray-900 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:border-gray-800 dark:border-gray-800 dark:bg-gray-950 dark:hover:bg-gray-800 dark:hover:text-gray-50 dark:focus-visible:ring-gray-300"
+            prefetch={false}
+        >
+          Learn More
+        </Link>
       </div>
     </div>
   );
