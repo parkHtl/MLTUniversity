@@ -9,7 +9,7 @@ import FadeInComponent from "@/components/inhouse/fadeInComponent";
 function CourseContent() {
   return (
     <div className='md:ml-10  md:mr-10'>
-        <section id="hero" className="w-full mt-16 mb-16">
+        <section id="hero" className="w-full mt-16 mb-16 flex flex-col items-center">
           <div className="container px-4 md:px-6">
             <div className="grid gap-6 lg:grid-cols-[1fr_400px] lg:gap-12 xl:grid-cols-[1fr_600px]">
               <div className="flex flex-col justify-center space-y-4">
@@ -50,7 +50,7 @@ function CourseContent() {
           </div>
         </section>
 
-      <section id="about" className="w-full py-12 md:py-24 lg:py-16 bg-gray-100 dark:bg-gray-800">
+      <section id="about" className="w-full py-12 md:py-24 lg:py-16 bg-gray-100 dark:bg-gray-800 flex flex-col items-center">
         <div className="container px-4 md:px-6">
           <div className="grid gap-6 lg:grid-cols-2 lg:gap-12">
           <div>
@@ -108,7 +108,7 @@ which prepares graduates ready for employment across the globe.`}
         </section>
 
 
-        <section className="w-full py-12 md:py-24 lg:py-32">
+        <section className="w-full py-12 md:py-24 lg:py-32 flex flex-col items-center">
           <div className="container px-4 md:px-6">
             <div className="grid gap-6">
               <div className="text-center">
@@ -166,7 +166,7 @@ which prepares graduates ready for employment across the globe.`}
         </section>
 
 
-        <section id="details" className="w-full py-12 md:py-24 lg:py-32 bg-gray-100 dark:bg-gray-800">
+        <section id="details" className="w-full py-12 md:py-24 lg:py-32 bg-gray-100 dark:bg-gray-800 flex flex-col items-center">
           <div className="container px-4 md:px-6 space-y-8">
             <div className="text-center space-y-4">
               <FadeInComponent><h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Course
@@ -218,7 +218,7 @@ which prepares graduates ready for employment across the globe.`}
           </div>
         </section>
 
-        <section className="w-full py-12 md:py-24 lg:py-32">
+        <section className="w-full py-12 md:py-24 lg:py-32 flex flex-col items-center">
           <div className="container px-4 md:px-6">
             <div className="space-y-8">
               <div className="space-y-4 text-center">
