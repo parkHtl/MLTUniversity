@@ -9,30 +9,33 @@ import FadeInComponent from "@/components/inhouse/fadeInComponent";
 function CourseContent() {
   return (
     <div className='md:ml-10  md:mr-10'>
-      <FadeInComponent>
         <section id="hero" className="w-full mt-16 mb-16">
           <div className="container px-4 md:px-6">
             <div className="grid gap-6 lg:grid-cols-[1fr_400px] lg:gap-12 xl:grid-cols-[1fr_600px]">
               <div className="flex flex-col justify-center space-y-4">
                 <div className="space-y-2">
-                  <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none">
+                  <FadeInComponent><h1 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none">
                     Become a Certified Medical Laboratory Technician
-                  </h1>
-                  <p className="max-w-[600px] text-gray-500 md:text-xl dark:text-gray-400">
-                    Our comprehensive MLT course prepares you for a rewarding career in the healthcare industry. Gain
-                    hands-on experience in our state-of-the-art lab facilities.
-                  </p>
+                  </h1></FadeInComponent>
+                  <FadeInComponent>
+                    <p className="max-w-[600px] text-gray-500 md:text-xl dark:text-gray-400">
+                      Our comprehensive MLT course prepares you for a rewarding career in the healthcare industry. Gain
+                      hands-on experience in our state-of-the-art lab facilities.
+                    </p>
+                  </FadeInComponent>
                 </div>
-                <div className="flex flex-col gap-2 min-[400px]:flex-row">
-                  <Link
-                      href="#"
-                      className="inline-flex h-10 items-center justify-center rounded-md bg-gray-900 px-8 text-sm font-medium text-gray-50 shadow transition-colors hover:bg-gray-900/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:bg-gray-50 dark:text-gray-900 dark:hover:bg-gray-50/90 dark:focus-visible:ring-gray-300"
-                      prefetch={false}
-                  >
-                    Apply Now
-                  </Link>
+                <FadeInComponent>
+                  <div className="flex flex-col gap-2 min-[400px]:flex-row">
+                    <Link
+                        href="#"
+                        className="inline-flex h-10 items-center justify-center rounded-md bg-gray-900 px-8 text-sm font-medium text-gray-50 shadow transition-colors hover:bg-gray-900/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:bg-gray-50 dark:text-gray-900 dark:hover:bg-gray-50/90 dark:focus-visible:ring-gray-300"
+                        prefetch={false}
+                    >
+                      Apply Now
+                    </Link>
 
-                </div>
+                  </div>
+                </FadeInComponent>
               </div>
               <img
                   src="/images/6.png"
@@ -44,14 +47,12 @@ function CourseContent() {
             </div>
           </div>
         </section>
-      </FadeInComponent>
 
-
-        <section id="about" className="w-full py-12 md:py-24 lg:py-16 bg-gray-100 dark:bg-gray-800">
-          <div className="container px-4 md:px-6">
-            <div className="grid gap-6 lg:grid-cols-2 lg:gap-12">
-              <div>
-                <FadeInComponent><h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">About the
+      <section id="about" className="w-full py-12 md:py-24 lg:py-16 bg-gray-100 dark:bg-gray-800">
+        <div className="container px-4 md:px-6">
+          <div className="grid gap-6 lg:grid-cols-2 lg:gap-12">
+            <div>
+              <FadeInComponent><h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">About the
                   MLT Course</h2></FadeInComponent>
                 <FadeInComponent>
                   <p className="mt-4 text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
