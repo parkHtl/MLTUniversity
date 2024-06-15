@@ -37,13 +37,15 @@ function CourseContent() {
                   </div>
                 </FadeInComponent>
               </div>
-              <img
-                  src="/images/6.png"
-                  width="600"
-                  height="400"
-                  alt="MLT Course"
-                  className="mx-auto aspect-video overflow-hidden rounded-xl object-cover sm:w-full lg:order-last"
-              />
+              <FadeInComponent>
+                <img
+                    src="/images/6.png"
+                    width="600"
+                    height="400"
+                    alt="MLT Course"
+                    className="mx-auto aspect-video overflow-hidden rounded-xl object-cover sm:w-full lg:order-last"
+                />
+              </FadeInComponent>
             </div>
           </div>
         </section>
@@ -51,7 +53,7 @@ function CourseContent() {
       <section id="about" className="w-full py-12 md:py-24 lg:py-16 bg-gray-100 dark:bg-gray-800">
         <div className="container px-4 md:px-6">
           <div className="grid gap-6 lg:grid-cols-2 lg:gap-12">
-            <div>
+          <div>
               <FadeInComponent><h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">About the
                   MLT Course</h2></FadeInComponent>
                 <FadeInComponent>
