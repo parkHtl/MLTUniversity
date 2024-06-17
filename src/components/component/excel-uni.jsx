@@ -10,10 +10,10 @@ export function ExcelUni() {
           className="grid gap-6 lg:grid-cols-[1fr_400px] lg:gap-12 xl:grid-cols-[1fr_600px]">
           <Image
             alt="University of Excellence"
-            className="mx-auto aspect-video overflow-hidden rounded-xl object-cover sm:w-full lg:order-last lg:aspect-square"
+            className="mx-auto aspect-video overflow-hidden rounded-xl  sm:w-full lg:order-last object-contain "
             src="/images/pgcLogo.png"
-            width={550}
-            height={550}
+            width={500}
+            height={500}
           />
           <div className="flex flex-col justify-center space-y-4">
             <div className="space-y-2">
