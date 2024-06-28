@@ -303,18 +303,7 @@ which prepares graduates ready for employment across the globe.`}
                   Technologist, and more.
                 </CollapsibleContent>
               </Collapsible>
-              <Collapsible className="space-y-2">
-                <CollapsibleTrigger className="flex w-full items-center justify-between rounded-md bg-gray-100 px-4 py-3 text-lg font-medium transition-colors hover:bg-gray-200 focus:bg-gray-200 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:bg-gray-700">
-                  <span>Is the MLT program accredited?</span>
-                  <ChevronDownIcon className="h-5 w-5 transition-transform [&[data-state=open]]:rotate-180" />
-                </CollapsibleTrigger>
-                <CollapsibleContent className="px-4 py-3 text-gray-500 dark:text-gray-400">
-                  Yes, our MLT program is accredited by both the Tertiary and
-                  Vocational Education Commission (TVEC) and the Public Health
-                  Services Regulatory Commission (PHSRC). These accreditations
-                  ensure that our program meets high standards of quality.
-                </CollapsibleContent>
-              </Collapsible>
+           
               <Collapsible className="space-y-2">
                 <CollapsibleTrigger className="flex w-full items-center justify-between rounded-md bg-gray-100 px-4 py-3 text-lg font-medium transition-colors hover:bg-gray-200 focus:bg-gray-200 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:bg-gray-700">
                   <span>
@@ -344,33 +333,7 @@ which prepares graduates ready for employment across the globe.`}
                   prerequisite course information.
                 </CollapsibleContent>
               </Collapsible>
-              <Collapsible className="space-y-2">
-                <CollapsibleTrigger className="flex w-full items-center justify-between rounded-md bg-gray-100 px-4 py-3 text-lg font-medium transition-colors hover:bg-gray-200 focus:bg-gray-200 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:bg-gray-700">
-                  <span>What financial aid options are available?</span>
-                  <ChevronDownIcon className="h-5 w-5 transition-transform [&[data-state=open]]:rotate-180" />
-                </CollapsibleTrigger>
-                <CollapsibleContent className="px-4 py-3 text-gray-500 dark:text-gray-400">
-                  We offer various financial aid options, including
-                  scholarships, grants, and student loans. Our financial aid
-                  office can assist you in finding the best funding options to
-                  support your education.
-                </CollapsibleContent>
-              </Collapsible>
-              <Collapsible className="space-y-2">
-                <CollapsibleTrigger className="flex w-full items-center justify-between rounded-md bg-gray-100 px-4 py-3 text-lg font-medium transition-colors hover:bg-gray-200 focus:bg-gray-200 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:bg-gray-700">
-                  <span>
-                    Where can I find more information or ask additional
-                    questions?
-                  </span>
-                  <ChevronDownIcon className="h-5 w-5 transition-transform [&[data-state=open]]:rotate-180" />
-                </CollapsibleTrigger>
-                <CollapsibleContent className="px-4 py-3 text-gray-500 dark:text-gray-400">
-                  For more information or to ask additional questions, please
-                  contact our admissions office at 0701566566 or 0112502012. We
-                  are here to help and look forward to assisting you with
-                  your application.
-                </CollapsibleContent>
-              </Collapsible>
+           
             </div>
           </div>
         </div>
