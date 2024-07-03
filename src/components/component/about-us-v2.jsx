@@ -124,7 +124,7 @@ export function aboutUsV2() {
               Programs Available for Students
             </h2>
             <ul className="text-muted-foreground md:text-xl/relaxed space-y-2">
-              - Bachelor's Degree in Computer Science              <li>- Master's Degree in Business Administration</li>
+              <li>{`- Master's Degree in Business Administration`}</li>
               <li>{`- Diploma in Graphic Design`}</li>
               <li>{`- Certificate in Web Development`}</li>
             </ul>
