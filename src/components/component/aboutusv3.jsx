@@ -15,7 +15,7 @@ export function AboutUsv3() {
                   Meet the Team Behind Our Success
                 </h1>
                 <p className="max-w-[600px] text-muted-foreground md:text-xl">
-                  Our talented and dedicated team is the driving force behind our company's growth and innovation.
+                  {`  Our talented and dedicated team is the driving force behind our company's growth and innovation.`}
                 </p>
               </div>
             </div>
@@ -42,8 +42,8 @@ export function AboutUsv3() {
                 <p className="text-sm text-muted-foreground">CEO</p>
               </div>
               <p className="text-sm text-muted-foreground">
-                John is the visionary behind our company, leading the team with his strategic insights and innovative
-                thinking.
+                {` John is the visionary behind our company, leading the team with his strategic insights and innovative
+                thinking.`}
               </p>
             </div>
             <div
@@ -57,8 +57,8 @@ export function AboutUsv3() {
                 <p className="text-sm text-muted-foreground">CTO</p>
               </div>
               <p className="text-sm text-muted-foreground">
-                Jane is our technical mastermind, driving the development of our cutting-edge products and ensuring
-                seamless operations.
+                {`Jane is our technical mastermind, driving the development of our cutting-edge products and ensuring
+                seamless operations.`}
               </p>
             </div>
             <div
@@ -72,8 +72,8 @@ export function AboutUsv3() {
                 <p className="text-sm text-muted-foreground">Head of Design</p>
               </div>
               <p className="text-sm text-muted-foreground">
-                Bob is the creative genius behind our visually stunning designs, ensuring our brand stands out in the
-                market.
+                {` Bob is the creative genius behind our visually stunning designs, ensuring our brand stands out in the
+                market.`}
               </p>
             </div>
             <div
@@ -87,8 +87,8 @@ export function AboutUsv3() {
                 <p className="text-sm text-muted-foreground">Head of Marketing</p>
               </div>
               <p className="text-sm text-muted-foreground">
-                Sarah is the driving force behind our successful marketing campaigns, helping us reach and engage our
-                target audience.
+                {`Sarah is the driving force behind our successful marketing campaigns, helping us reach and engage our
+                target audience.`}
               </p>
             </div>
           </div>

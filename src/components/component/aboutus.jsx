@@ -11,8 +11,8 @@ export function AboutUs() {
             About Acme Inc.
           </h1>
           <p className="max-w-[700px] text-primary-foreground md:text-xl/relaxed">
-            Acme Inc. is a leading provider of innovative solutions for businesses of all sizes. Our team of dedicated
-            professionals is committed to delivering exceptional results and driving the success of our clients.
+            {` Acme Inc. is a leading provider of innovative solutions for businesses of all sizes. Our team of dedicated
+            professionals is committed to delivering exceptional results and driving the success of our clients.`}
           </p>
         </div>
       </section>
@@ -37,8 +37,8 @@ export function AboutUs() {
               </div>
               <div className="p-4">
                 <p className="text-muted-foreground">
-                  John is the visionary behind Acme Inc. With over 15 years of experience in the industry, he leads the
-                  company with a passion for innovation and a commitment to excellence.
+                  {`John is the visionary behind Acme Inc. With over 15 years of experience in the industry, he leads the
+                  company with a passion for innovation and a commitment to excellence.`}
                 </p>
               </div>
             </div>
@@ -58,8 +58,8 @@ export function AboutUs() {
               </div>
               <div className="p-4">
                 <p className="text-muted-foreground">
-                  Jane is the technical mastermind behind Acme Inc. With a deep understanding of the latest
-                  technologies, she leads the engineering team to deliver cutting-edge solutions.
+                  {`Jane is the technical mastermind behind Acme Inc. With a deep understanding of the latest
+                  technologies, she leads the engineering team to deliver cutting-edge solutions.`}
                 </p>
               </div>
             </div>
@@ -79,8 +79,8 @@ export function AboutUs() {
               </div>
               <div className="p-4">
                 <p className="text-muted-foreground">
-                  Michael is the driving force behind Acme Inc.'s sales strategy. With his exceptional communication
-                  skills and deep industry knowledge, he has helped the company expand its customer base.
+                  {`Michael is the driving force behind Acme Inc.'s sales strategy. With his exceptional communication
+                  skills and deep industry knowledge, he has helped the company expand its customer base.`}
                 </p>
               </div>
             </div>
@@ -100,9 +100,9 @@ export function AboutUs() {
               </div>
               <div className="p-4">
                 <p className="text-muted-foreground">
-                  Emily is the creative force behind Acme Inc.'s marketing campaigns. With her innovative approach and
+                  {` Emily is the creative force behind Acme Inc.'s marketing campaigns. With her innovative approach and
                   deep understanding of the target audience, she has helped the company establish a strong brand
-                  presence.
+                  presence.`}
                 </p>
               </div>
             </div>
