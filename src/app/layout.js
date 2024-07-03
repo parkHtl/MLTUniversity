@@ -4,6 +4,7 @@ import Header from "@/components/inhouse/header";
 import NavBar from "@/components/inhouse/navBar";
 import MainContent from "@/components/inhouse/content";
 import Footer from "@/components/inhouse/footer";
+import {NavBarV2} from "@/components/component/nav-bar-v2";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -31,7 +32,7 @@ export default function RootLayout({ children }) {
       <body className={inter.className + ' relative'}>
       <div className="flex flex-col min-h-screen">
         <Header/>
-        <NavBar/>
+        <NavBarV2 />
 
         {children}
 
