@@ -6,7 +6,7 @@ import Link from "next/link"
 export default function Textcontent() {
   return (
     <div>
-      <div>
+      <div className=" ml-0 md:ml-10">
         <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Want to Learn more</h2>
         <p className="max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
           Learn more about this General modules, Recognitions and Accreditation and more or download our Brochure.

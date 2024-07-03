@@ -1,7 +1,9 @@
 import {ApplyNow} from "@/components/component/apply-now";
 
 const page = () => {
-    return (<ApplyNow />)
+    return ( <div className="w-full">
+< ApplyNow />
+    </div> )
 }
 
 export default page
