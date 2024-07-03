@@ -15,6 +15,11 @@ import CourseContent from "@/components/inhouse/CourseContent";
 import {FurtherEd} from "@/components/component/further-ed";
 import {ExcelUni} from "@/components/component/excel-uni";
 import {AdmissionCrit} from "@/components/component/admission-crit";
+import {Collapsible, CollapsibleContent, CollapsibleTrigger} from "@/components/ui/collapsible";
+import React from "react";
+import {ChevronDownIcon} from "lucide-react";
+import FAQ from "@/components/inhouse/faq";
+import {ScholSchemes} from "@/components/component/schol-schemes";
 
 export default function Home() {
   return (
@@ -23,10 +28,6 @@ export default function Home() {
           <div className="mt-2">
               <CourseContent/>
           </div>
-          <div className="mt-2">
-              <FurtherEd/>
-          </div>
-
 
           <div className={"my-[60px]"}>
 
@@ -38,7 +39,7 @@ export default function Home() {
               <ImageGridAndText/>
 
           </div>
-         
+
           <FadeInComponent>
               <div>
                   <h2 className={"text-3xl text-justify font-bold mt-[50px]"}>
@@ -47,6 +48,9 @@ export default function Home() {
                   <StickyScrollReveal/>
               </div>
           </FadeInComponent>
+          <div className="mt-2">
+              <ScholSchemes />
+          </div>
 
           <div className="mt-16">
 
@@ -57,6 +61,12 @@ export default function Home() {
               <FadeInComponent>
                   <ExcelUni/>
               </FadeInComponent>
+          </div>
+          <div className="mt-2">
+              <FurtherEd/>
+          </div>
+          <div className="mt-16">
+              <FAQ/>
           </div>
       </div>
   );
