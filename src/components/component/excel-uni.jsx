@@ -15,14 +15,14 @@ export function ExcelUni() {
             width={500}
             height={500}
           />
-          <div className="flex flex-col justify-center space-y-4">
-            <div className="space-y-2">
+          <div className="flex flex-col justify-center space-y-4 ml-10">
+            <div className="space-y-2 ">
               <h1
                 className="text-4xl font-bold tracking-tighter sm:text-6xl xl:text-7xl/none">
-                University of Excellence
+                Campus  of Excellence
               </h1>
               <p className="max-w-[600px] text-gray-500 md:text-xl dark:text-gray-400">
-                Ranked among the top universities in the world, the University of Excellence is renowned for its
+                Ranked among the top Campus  in the world, the Campus  of Excellence is renowned for its
                 exceptional academic programs, cutting-edge research, and vibrant campus life. Discover a transformative
                 educational experience that will empower you to reach new heights.
               </p>

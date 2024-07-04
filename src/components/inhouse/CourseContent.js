@@ -118,12 +118,15 @@ which prepares graduates ready for employment across the globe.`}
               </div>
               <div className="grid gap-1">
                 <FadeInComponent>
-                  <h3 className="text-xl font-bold">Snapshots of 2 years Diploma in MLT
+                  <h3 className="text-xl font-bold">
+                    Snapshots of 2 years Diploma in MLT
                   </h3>
                 </FadeInComponent>
                 <FadeInComponent>
                   <ul className="list-disc space-y-2 pl-6 text-gray-500 dark:text-gray-400">
-                    <li>{`Globally Recognized Diploma + ONE year Work certificate`} </li>
+                    <li>
+                      {`Globally Recognized Diploma + ONE year Work certificate`}{" "}
+                    </li>
                     <li>{`Employment based curriculum`}</li>
                     <li>{`Work is recognized as education`}</li>
                     <li>{`Exemptions for prior education and work experience
@@ -139,8 +142,6 @@ Continues education programs`}</li>
           </div>
         </div>
       </section>
-
-      
 
       <section
         id="details"
@@ -210,8 +211,6 @@ Continues education programs`}</li>
           </div>
         </div>
       </section>
-
-
     </div>
   );
 }
