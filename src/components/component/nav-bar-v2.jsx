@@ -47,19 +47,27 @@ export function NavBarV2() {
           </Button>
         </DrawerTrigger>
         <DrawerContent className={'bg-white'}>
-          <div className="grid gap-4 p-4 ">
-            <Link href="/" className="hover:underline" prefetch={false}>
+          <div className="grid gap-1 p-4 text-center">
+              <DrawerTrigger asChild>
+            <Link href="/" className="hover:underline bg-gray-200 p-[10px] rounded-2xl" prefetch={false}>
               Home
             </Link>
-            {/*<Link href="/contactus" className="hover:underline" prefetch={false}>*/}
-            {/*  Contact Us*/}
-            {/*</Link>*/}
-            <Link href="/aboutus" className="hover:underline" prefetch={false}>
-              About Us
+              </DrawerTrigger>
+              <DrawerTrigger asChild>
+            <Link href="/contactus" className="hover:underline bg-gray-200 p-[10px] rounded-2xl" prefetch={false}>
+              Contact Us
             </Link>
-            <Link href="/apply" className="hover:underline" prefetch={false}>
-              Apply Now
-            </Link>
+              </DrawerTrigger>
+              <DrawerTrigger asChild>
+                  <Link href="/aboutus" className="hover:underline bg-gray-200 p-[10px] rounded-2xl" prefetch={false}>
+                      About Us
+                  </Link>
+              </DrawerTrigger>
+              <DrawerTrigger asChild>
+                <Link href="/apply" className="hover:underline bg-gray-200 p-[10px] rounded-2xl" prefetch={false}>
+                  Apply Now
+                </Link>
+              </DrawerTrigger>
           </div>
         </DrawerContent>
       </Drawer>
