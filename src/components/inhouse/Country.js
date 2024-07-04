@@ -1,7 +1,7 @@
 import React from 'react';
 
 const cardClasses =
-  'border border-muted p-4 rounded-xl text-center w-full h-[355px] md:w-1/3 bg-white shadow-md transform transition-transform duration-300 hover:scale-105';
+  'border border-muted p-4 rounded-xl text-center w-full h-[365px] md:w-1/3 bg-white shadow-md transform transition-transform duration-300 hover:scale-105';
 const imageClasses = 'mx-auto my-4 w-48 h-48 object-contain';
 const textPrimaryClasses = 'text-primary font-bold';
 
