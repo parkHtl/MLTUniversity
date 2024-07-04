@@ -20,18 +20,18 @@ const NewHeroSection = () => {
       {/* Large screen slides */}
       <div className="hidden lg:block">
         <Slider {...settings}>
-          <img src="/images/L1.jpg" alt="Large Display 1" className="w-full h-full object-cover" />
-          <img src="/images/L2.jpg" alt="Large Display 2" className="w-full h-full object-cover" />
-          <img src="/images/L3.jpg" alt="Large Display 3" className="w-full h-full object-cover" />
+          <img src="/images/L1.png" alt="Large Display 1" className="w-full h-full object-cover" />
+          <img src="/images/L2.png" alt="Large Display 2" className="w-full h-full object-cover" />
+          <img src="/images/L3.png" alt="Large Display 3" className="w-full h-full object-cover" />
         </Slider>
       </div>
 
       {/* Mobile screen slides */}
       <div className="block lg:hidden">
         <Slider {...settings}>
-          <img src="/images/M1.jpg" alt="Mobile Display 1" className="w-full h-full object-cover" />
-          <img src="/images/M2.jpg" alt="Mobile Display 2" className="w-full h-full object-cover" />
-          <img src="/images/M3.jpg" alt="Mobile Display 3" className="w-full h-full object-cover" />
+          <img src="/images/M1.png" alt="Mobile Display 1" className="w-full h-full object-cover" />
+          <img src="/images/M2.png" alt="Mobile Display 2" className="w-full h-full object-cover" />
+          <img src="/images/M3.png" alt="Mobile Display 3" className="w-full h-full object-cover" />
         </Slider>
       </div>
     </div>

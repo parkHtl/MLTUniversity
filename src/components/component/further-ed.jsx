@@ -89,7 +89,7 @@ export function FurtherEd() {
                   alt="Digital Marketing Masterclass"
                   className="rounded-lg object-cover w-full aspect-[4/3]"
                   height={300}
-                  src="/images/Picture3.jpg"
+                  src="/images/BEN_1337.jpg"
                   width={400} />
                 <h3 className="text-xl font-semibold">Crown Properties
 

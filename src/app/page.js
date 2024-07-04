@@ -22,6 +22,7 @@ import FAQ from "@/components/inhouse/faq";
 import {ScholSchemes} from "@/components/component/schol-schemes";
 
 import NewHeroSection from "@/components/inhouse/NewHeroSection";
+import Country from "@/components/inhouse/Country";
 
 export default function Home() {
   return (
@@ -48,10 +49,11 @@ export default function Home() {
 
           <FadeInComponent>
               <div>
-                  <h2 className={"text-3xl text-justify font-bold mt-[50px]"}>
+                  <h2 className={"text-3xl text-center font-bold mt-[50px] mb-10"}>
                       FURTHER EDUCATION OPPORTUNITIES
                   </h2>
-                  <StickyScrollReveal/>
+                  {/* <StickyScrollReveal/> */}
+                  <Country/>
               </div>
           </FadeInComponent>
           <div className="mt-2">
