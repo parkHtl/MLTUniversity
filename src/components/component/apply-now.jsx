@@ -68,14 +68,22 @@ export function ApplyNow() {
             <p className="mt-2 text-muted-foreground">
               Fill out our PATH Academy <br></br> Online Application form
             </p>
-            <Link
-              href="https://forms.gle/LzYReR8UBV3V12qX9"
-              className="mt-3 inline-flex h-10 items-center justify-center rounded-md bg-gray-900 px-8 text-sm font-medium
+            <div className={'flex gap-3 justify-center items-center mt-4 md:flex-row flex-col'}>
+              <Link
+                  href="https://forms.gle/LzYReR8UBV3V12qX9"
+                  className=" inline-flex h-10 items-center justify-center rounded-md bg-gray-900 px-8 text-sm font-medium
               text-gray-50 shadow transition-colors hover:bg-gray-900/90 focus-visible:outline-none focus-visible:ring-1
                focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:bg-gray-50 dark:text-gray-900
                 dark:hover:bg-gray-50/90 dark:focus-visible:ring-gray-300"              prefetch={false}>
-              Apply Now
-            </Link>
+                Apply Now
+              </Link>
+              <Link
+                  href="/scholarships"
+                  className="inline-flex items-center justify-center rounded-md bg-muted px-8 py-2 text-sm font-medium text-muted-foreground shadow transition-colors hover:bg-muted/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring "
+                  prefetch={false}>
+                Learn More
+              </Link>
+            </div>
           </div>
           </FadeInComponent>
         </div>

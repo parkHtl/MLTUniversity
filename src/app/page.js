@@ -22,17 +22,29 @@ import FAQ from "@/components/inhouse/faq";
 import {ScholSchemes} from "@/components/component/schol-schemes";
 
 import NewHeroSection from "@/components/inhouse/NewHeroSection";
+import {StudentReviews} from "@/components/component/student-reviews";
+import {VideoStream} from "@/components/component/video-stream";
 
 export default function Home() {
   return (
       <div className=" px-3 py-5  min-h-[200vh] w-full">
           <div>
-          <NewHeroSection/>
+              <NewHeroSection/>
           </div>
-          
-          
+
+
           <div className="md:-mt-44 -mt-32">
               <CourseContent/>
+          </div>
+          <div className="">
+
+              <StudentReviews />
+
+          </div>
+          <div className="">
+
+              <VideoStream />
+
           </div>
 
           <div className={"my-[60px]"}>
@@ -55,7 +67,7 @@ export default function Home() {
               </div>
           </FadeInComponent>
           <div className="mt-2">
-              <ScholSchemes />
+              <ScholSchemes/>
           </div>
 
           <div className="mt-16">
