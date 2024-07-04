@@ -17,13 +17,13 @@ export function StudentReviews() {
         <div
           className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 mt-12">
           <div
-            className="bg-background rounded-lg shadow-md p-6 flex flex-col items-center text-center">
+            className="bg-background rounded-full shadow-md p-6 flex flex-col items-center text-center">
             <img
-              src="/placeholder.svg"
+              src="/images/anujan.jpeg"
               width={80}
               height={80}
               alt="Student"
-              className="rounded-full mb-4" />
+              className="rounded-full mb-4 bg-cover" />
             <h3 className="text-lg font-semibold">{`Anujan Sounthararajan`}</h3>
             <p className="text-muted-foreground">{`Public Health Inspector (PHI)`}</p>
             <blockquote className="mt-4 text-muted-foreground text-justify">
@@ -42,13 +42,13 @@ career!"`}
           <div
             className="bg-background rounded-lg shadow-md p-6 flex flex-col items-center text-center">
             <img
-              src="/placeholder.svg"
+              src="/images/asela.jpeg"
               width={80}
               height={80}
               alt="Student"
               className="rounded-full mb-4" />
             <h3 className="text-lg font-semibold">{`Asela Weerasooriya`}</h3>
-            <p className="text-muted-foreground">{`‘Lab Manager
+            <p className="text-muted-foreground">{`Lab Manager
 Healthcare Center & Laboratory`}</p>
             <blockquote className="mt-4 text-muted-foreground text-justify">
               {`"My goal was to become a
@@ -76,7 +76,7 @@ career ladder in the MLT field."`}
               alt="Student"
               className="rounded-full mb-4" />
             <h3 className="text-lg font-semibold">{`MIF. Ishqa`}</h3>
-            <p className="text-muted-foreground">{`~ Medical Laboratory Technologist @ |
+            <p className="text-muted-foreground">{`Medical Laboratory Technologist @ 
 Lanka Hospital Diagnostics`}</p>
             <blockquote className="mt-4 text-muted-foreground text-justify">
               {`"1am a graduate of PGC's MLT program.

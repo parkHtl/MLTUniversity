@@ -29,7 +29,7 @@ export default function RootLayout({ children }) {
       `,
           }} />
       </head>
-      <body className={inter.className + ' relative'}>
+      <body className={inter.className + ' relative overflow-x-hidden'}>
       <div className="flex flex-col min-h-screen">
         <Header/>
         <NavBarV2 />
