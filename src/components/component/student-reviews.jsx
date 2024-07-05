@@ -70,7 +70,7 @@ career ladder in the MLT field."`}
           <div
             className="bg-background rounded-lg shadow-md p-6 flex flex-col items-center text-center">
             <img
-              src="/placeholder.svg"
+              src="/images/mif.jpeg"
               width={80}
               height={80}
               alt="Student"
@@ -104,7 +104,7 @@ part of PGC Education campus!"`}
           <div
             className="bg-background rounded-lg shadow-md p-6 flex flex-col items-center text-center">
             <img
-              src="/placeholder.svg"
+              src="/images/bimba.jpeg"
               width={80}
               height={80}
               alt="Student"

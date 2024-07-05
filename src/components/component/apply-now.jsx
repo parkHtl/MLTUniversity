@@ -16,14 +16,14 @@ export function ApplyNow() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-10 w-full">
           <FadeInComponent>
           <div className="bg-card rounded-lg p-6 shadow-sm hover:shadow-md transition-shadow text-center flex flex-col items-center bg-slate-300 hover:bg-gray-300">
-            <div className="flex items-center gap-4">
+            <div className="flex items-center gap-4 flex-col">
               <div className="bg-primary text-primary-foreground rounded-full p-3">
                 <GraduationCapIcon className="h-6 w-6" />
               </div>
               <h3 className="text-xl font-semibold">Apply Online</h3>
             </div>
             <p className="mt-2 text-muted-foreground">
-              Apply through our online portal for our undergraduate and postgraduate programs.
+              Apply through our online portal for our undergraduate programs
             </p>
             <Link
               href="https://panaska.pathe.lk/signin.php?pid=1"
@@ -38,14 +38,14 @@ export function ApplyNow() {
           </FadeInComponent>
           <FadeInComponent>
           <div className="bg-card rounded-lg p-6 shadow-sm hover:shadow-md transition-shadow text-center flex flex-col items-center bg-slate-300 hover:bg-gray-300 ">
-            <div className="flex items-center gap-4">
+            <div className="flex items-center gap-4 flex-col">
               <div className="bg-secondary text-secondary-foreground rounded-full p-3">
                 <BriefcaseIcon className="h-6 w-6" />
               </div>
               <h3 className="text-xl font-semibold">Online Application form</h3>
             </div>
             <p className="mt-2 text-muted-foreground">
-              Fill out our PATH Academy <br></br> Online Application form
+              Fill out our PGC Education <br></br> Online Application form
             </p>
             <Link
               href="https://forms.gle/gYyynf7GHraEnJNT6"
@@ -59,14 +59,14 @@ export function ApplyNow() {
           </FadeInComponent>
           <FadeInComponent>
           <div className="bg-card rounded-lg p-6 shadow-sm hover:shadow-md transition-shadow text-center flex flex-col items-center bg-slate-300 hover:bg-gray-300 ">
-            <div className="flex items-center gap-4">
+            <div className="flex items-center gap-4 flex-col">
               <div className="bg-muted text-muted-foreground rounded-full p-3">
                 <BookIcon className="h-6 w-6" />
               </div>
               <h3 className="text-xl font-semibold">Scholarships Application form</h3>
             </div>
             <p className="mt-2 text-muted-foreground">
-              Fill out our PATH Academy <br></br> Online Application form
+              Fill out our PGC Education online Scholarship Application Form
             </p>
             <div className={'flex gap-3 justify-center items-center mt-4 md:flex-row flex-col'}>
               <Link

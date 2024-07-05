@@ -73,9 +73,9 @@ export function FurtherEd() {
                   height={300}
                   src="/images/6.png"
                   width={400} />
-                <h3 className="text-xl font-semibold">PATHE Academy
+                <h3 className="text-xl font-semibold">PGC Education
                 </h3>
-                <p className="text-gray-500 dark:text-gray-400">PATHE Academy with an excellent history of more than a decade introduced an innovative educational format for learning health sciences.
+                <p className="text-gray-500 dark:text-gray-400">PGC Education with an excellent history of more than a decade introduced an innovative educational format for learning health sciences.
                 </p>
 
               </div>
@@ -89,7 +89,7 @@ export function FurtherEd() {
                   alt="Digital Marketing Masterclass"
                   className="rounded-lg object-cover w-full aspect-[4/3]"
                   height={300}
-                  src="/images/B1.JPG"
+                  src="/images/properties.webp"
                   width={400} />
                 <h3 className="text-xl font-semibold">Crown Properties
 
