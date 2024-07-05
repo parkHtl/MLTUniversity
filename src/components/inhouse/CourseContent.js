@@ -125,7 +125,7 @@ which prepares graduates ready for employment across the globe.`}
                 <FadeInComponent>
                   <ul className="list-disc space-y-2 pl-6 text-gray-500 dark:text-gray-400">
                     <li>
-                      {`Globally Recognized Diploma + ONE year Work certificate`}{" "}
+                      {`Globally Recognized Diploma ONE year Work experience letter`}{" "}
                     </li>
                     <li>{`Employment based curriculum`}</li>
                     <li>{`Work is recognized as education`}</li>
