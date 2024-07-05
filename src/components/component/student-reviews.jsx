@@ -76,7 +76,7 @@ career ladder in the MLT field."`}
               alt="Student"
               className="rounded-full mb-4" />
             <h3 className="text-lg font-semibold">{`MIF. Ishqa`}</h3>
-            <p className="text-muted-foreground">{`Medical Laboratory Technologist @ 
+            <p className="text-muted-foreground">{`Medical Laboratory Technologist
 Lanka Hospital Diagnostics`}</p>
             <blockquote className="mt-4 text-muted-foreground text-justify">
               {`"1am a graduate of PGC's MLT program.

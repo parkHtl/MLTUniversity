@@ -156,8 +156,7 @@ Continues education programs`}</li>
             </FadeInComponent>
             <FadeInComponent>
               <p className="max-w-[700px] mx-auto text-gray-500 md:text-xl dark:text-gray-400">
-                Explore the details of the Natural Language Processing
-                Techniques course.
+               
               </p>
             </FadeInComponent>
           </div>
@@ -166,7 +165,7 @@ Continues education programs`}</li>
               <div className="space-y-2">
                 <h3 className="text-xl font-bold">Duration</h3>
                 <p className="text-gray-500 dark:text-gray-400">
-                  8 weeks, 2 hours per week
+                 2 years
                 </p>
               </div>
             </FadeInComponent>
