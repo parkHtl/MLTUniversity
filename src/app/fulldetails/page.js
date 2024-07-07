@@ -12,12 +12,7 @@ import Country from "@/components/inhouse/Country";
 export default function Page() {
   return (
     <div className="px-2 md:px-10 lg:px-20 xl:px-40 space-y-5 ">
-      <div>
-        <h2 className={"text-2xl underline text-center font-bold pb-10 mt-[40px]"}>
-          FURTHER EDUCATION OPPORTUNITIES
-        </h2>
-        <Country/>
-      </div>
+     
       <div className="flex flex-col  ">
         <h1 className="text-center text-2xl font-bold mt-5 mb-5 underline">
           2 - YEAR DIPLOMA IN MEDICAL LABORATORY TECHNOLOGY (MLT)
@@ -68,14 +63,23 @@ export default function Page() {
         </h1>
         <ModuleData />
       </div>
+      
 
       <div className="w-full mt-5">
         <Table />
-
+      </div>
+      <div>
+        <h2 className={"text-2xl underline text-center font-bold pb-10 mt-[40px]"}>
+          FURTHER EDUCATION OPPORTUNITIES
+        </h2>
+        <Country/>
+      </div>
+      <div className="mt-10">
         <div className="mt-10">
           <Reference />
         </div>
       </div>
+
     </div>
   );
 }
