@@ -25,9 +25,9 @@ export function NavBarV2() {
           Home
         </Link>
 
-        <Link href="/contactus" className="hover:underline" prefetch={false}>
+        {/* <Link href="/contactus" className="hover:underline" prefetch={false}>
           Contact Us
-        </Link>
+        </Link> */}
         <Link href="/aboutus" className="hover:underline" prefetch={false}>
           About Us
         </Link>

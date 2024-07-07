@@ -13,7 +13,7 @@ export function ApplyNow() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-10 w-full">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6 mt-10 w-full">
           <FadeInComponent>
           <div className="bg-card rounded-lg p-6 shadow-sm hover:shadow-md transition-shadow text-center flex flex-col items-center bg-slate-300 hover:bg-gray-300">
             <div className="flex items-center gap-4 flex-col">
@@ -36,7 +36,7 @@ export function ApplyNow() {
             </Link>
           </div>
           </FadeInComponent>
-          <FadeInComponent>
+          {/* <FadeInComponent>
           <div className="bg-card rounded-lg p-6 shadow-sm hover:shadow-md transition-shadow text-center flex flex-col items-center bg-slate-300 hover:bg-gray-300 ">
             <div className="flex items-center gap-4 flex-col">
               <div className="bg-secondary text-secondary-foreground rounded-full p-3">
@@ -56,7 +56,7 @@ export function ApplyNow() {
               Apply Now
             </Link>
           </div>
-          </FadeInComponent>
+          </FadeInComponent> */}
           <FadeInComponent>
           <div className="bg-card rounded-lg p-6 shadow-sm hover:shadow-md transition-shadow text-center flex flex-col items-center bg-slate-300 hover:bg-gray-300 ">
             <div className="flex items-center gap-4 flex-col">
