@@ -63,12 +63,12 @@ export function NavBarV2() {
                             Home
                         </Link>
                     </DrawerTrigger>
-                    <DrawerTrigger asChild>
-                        <Link href="/contactus" className="hover:underline bg-gray-200 p-[10px] rounded-2xl"
-                              prefetch={false}>
-                            Contact Us
-                        </Link>
-                    </DrawerTrigger>
+                    {/*<DrawerTrigger asChild>*/}
+                    {/*    <Link href="/contactus" className="hover:underline bg-gray-200 p-[10px] rounded-2xl"*/}
+                    {/*          prefetch={false}>*/}
+                    {/*        Contact Us*/}
+                    {/*    </Link>*/}
+                    {/*</DrawerTrigger>*/}
                     <DrawerTrigger asChild>
                         <Link href="/aboutus" className="hover:underline bg-gray-200 p-[10px] rounded-2xl" prefetch={false}>
                       About Us
