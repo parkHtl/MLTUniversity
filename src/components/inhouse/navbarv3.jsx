@@ -37,7 +37,6 @@ export default function NavBarV3(props) {
 
     const handleScroll = () => {
         setScrollPos(window.scrollY)
-        console.log(window.scrollY)
     };
 
 
