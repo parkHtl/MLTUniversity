@@ -22,8 +22,7 @@ function CourseContent() {
               <div className="space-y-2">
                 <FadeInComponent>
                   <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-5xl/none">
-                    Launch Your Career in Healthcare with Our Comprehensive
-                    Medical Laboratory Technician (MLT) Course
+                    Launch Your Career in Healthcare with Our Comprehensive Medical Laboratory Technology (MLT) Course
                   </h1>
                 </FadeInComponent>
                 <FadeInComponent>
@@ -125,16 +124,15 @@ which prepares graduates ready for employment across the globe.`}
                 <FadeInComponent>
                   <ul className="list-disc space-y-2 pl-6 text-gray-500 dark:text-gray-400">
                     <li>
-                      {`Globally Recognized Diploma ONE year Work experience letter`}{" "}
+                      {`Globally Recognized Diploma + ONE year work experience certificate`}
                     </li>
-                    <li>{`Employment based curriculum`}</li>
-                    <li>{`Work is recognized as education`}</li>
-                    <li>{`Exemptions for prior education and work experience
-Assured degree pathways -locally/abroad 
-Over 100 Scholarships offered early
-Assistance in referring to employments
-Vibrant alumni 
-Continues education programs`}</li>
+                    <li>{`Employment based curriculum - work recognized as education`}</li>
+                    <li>{`Exemptions for prior education & work experience`}</li>
+                    <li>{`Assured degree pathways -locally & abroad`}</li>
+                    <li>{`Over 100 Scholarships offered Merit & NEED-BASED!`}</li>
+                    <li>{`Assistance in referring to employments opportunities `}</li>
+                    <li>{`Vibrant alumni`}</li>
+                    <li>{`Continues education programs conducted in participation of MLT professional organizations locally & abroad`}</li>
                   </ul>
                 </FadeInComponent>
               </div>
