@@ -33,7 +33,7 @@ HideOnScroll.propTypes = {
 export default function NavBarV3(props) {
     const {children, other} = props;
     const [scrollPos, setScrollPos] = useState(0);
-    const [screenWidth, setScreenWidth] = useState(window.innerWidth)
+    const [screenWidth, setScreenWidth] = useState(768)
 
     const handleScroll = () => {
         setScrollPos(window.scrollY)
@@ -51,6 +51,7 @@ export default function NavBarV3(props) {
 
 
     useEffect(() => {
+        setScreenWidth(document.documentElement.clientWidth);
         window.addEventListener('scroll', handleScroll);
         window.addEventListener('resize', handleResize);
         return () => {
