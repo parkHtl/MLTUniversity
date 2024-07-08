@@ -33,22 +33,36 @@ HideOnScroll.propTypes = {
 export default function NavBarV3(props) {
     const {children, other} = props;
     const [scrollPos, setScrollPos] = useState(0);
+    const [screenWidth, setScreenWidth] = useState(window.innerWidth)
 
     const handleScroll = () => {
         setScrollPos(window.scrollY)
     };
 
+    const handleResize = () => {
+        setScreenWidth(document.documentElement.clientWidth);
+    };
+
+    const getHeight = () => {
+        if (screenWidth>537) return '50px';
+        else if (screenWidth>387) return '80px';
+        else return '95px';
+    }
+
+
     useEffect(() => {
         window.addEventListener('scroll', handleScroll);
+        window.addEventListener('resize', handleResize);
         return () => {
             window.removeEventListener('scroll', handleScroll);
+            window.removeEventListener('resize', handleResize);
         };
     }, []);
     return (
         <React.Fragment >
             <CssBaseline />
             <HideOnScroll {...other}>
-                <AppBar sx={{backgroundColor: 'white', color:'black', boxShadow:'rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px', top:`${scrollPos===0? '50px': '0px'}`}}>
+                <AppBar sx={{backgroundColor: 'white', color:'black', boxShadow:'rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px', top:`${scrollPos===0? getHeight(): '0px'}`}}>
                    <NavBarV2/>
                 </AppBar>
             </HideOnScroll>
