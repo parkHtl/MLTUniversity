@@ -5,6 +5,7 @@ import NavBar from "@/components/inhouse/navBar";
 import MainContent from "@/components/inhouse/content";
 import Footer from "@/components/inhouse/footer";
 import {NavBarV2} from "@/components/component/nav-bar-v2";
+import NavBarV3 from "@/components/inhouse/navbarv3";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -31,8 +32,8 @@ export default function RootLayout({ children }) {
       </head>
       <body className={inter.className + ' relative overflow-x-hidden'}>
       <div className="flex flex-col min-h-screen">
-        <Header/>
-        <NavBarV2 />
+
+        <NavBarV3 />
 
         {children}
 
