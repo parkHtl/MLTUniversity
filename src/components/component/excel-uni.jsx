@@ -22,7 +22,7 @@ export function ExcelUni() {
                 Campus  of Excellence
               </h1>
               <p className="max-w-[600px] text-gray-500 md:text-xl dark:text-gray-400">
-                Ranked among the top Campus  in the world, the Campus  of Excellence is renowned for its
+                Ranked among the top Campuses  in the world, the Campus  of Excellence is renowned for its
                 exceptional academic programs, cutting-edge research, and vibrant campus life. Discover a transformative
                 educational experience that will empower you to reach new heights.
               </p>

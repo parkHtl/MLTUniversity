@@ -26,7 +26,7 @@ export function AdmissionCrit() {
                     <h3 className="text-xl font-bold">Advanced Level</h3>
                     <p className="text-gray-500 dark:text-gray-400">
                       Three (3) Simple Passes in GCE Advanced Level
-                      (including for Chemistry as subject).
+                      (Including chemistry as a subject).
                     </p>
                   </div>
                 </li>
