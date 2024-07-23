@@ -11,7 +11,7 @@ import Country from "@/components/inhouse/Country";
 
 export default function Page() {
   return (
-    <div className="px-2 md:px-10 lg:px-20 xl:px-40 space-y-5 ">
+    <div className="px-2 md:px-10 lg:px-20 xl:px-40 space-y-5 mt-10 ">
      
       <div className="flex flex-col  ">
         <h1 className="text-center text-2xl font-bold mt-5 mb-5 underline">
@@ -67,6 +67,22 @@ export default function Page() {
 
       <div className="w-full mt-5">
         <Table />
+      </div>
+      <div className="flex flex-col mt-5 mb-5 ">
+        <h1 className="text-center text-2xl font-bold mt-5 mb-5 underline">
+        RPL/CREDIT EXEMPTIONS
+        </h1>
+        <h2 className="text-center text-lg font-bold">
+       
+        </h2>
+        <p className="text-center px-2 md:px-10">
+        {`Those with work experience at a laboratory registered with PHSRC or at a government
+establishment OR those with other relevant MLT qualifications will be assessed on case by
+case by our academic council followed with an aptitude test for providing of Credit
+exemptions,
+
+Those who has more than 5 years work experience are exempted from the CPT.`}
+        </p>
       </div>
       <div>
         <h2 className={"text-2xl underline text-center font-bold pb-10 mt-[40px]"}>
