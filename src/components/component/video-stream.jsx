@@ -9,7 +9,7 @@ export function VideoStream() {
       <div className="w-full max-w-4xl">
         <div className="space-y-4">
           <div className="relative w-full overflow-hidden rounded-lg aspect-video">
-            <video className="w-full h-full" controls>
+            <video className="w-full h-full" controls poster={'/images/thumbnail.png'}>
               <source
                 src="/videos/1.mp4"
                 type="video/mp4" />

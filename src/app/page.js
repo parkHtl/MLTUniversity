@@ -85,9 +85,9 @@ export default function Home() {
           <div className="mt-2">
               <FurtherEd/>
           </div>
-          <div className="mt-16">
-              <FAQ/>
-          </div>
+          {/*<div className="mt-16">*/}
+          {/*    <FAQ/>*/}
+          {/*</div>*/}
       </div>
   );
 }
