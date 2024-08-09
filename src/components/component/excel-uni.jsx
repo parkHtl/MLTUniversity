@@ -19,7 +19,7 @@ export function ExcelUni() {
             <div className="space-y-2 ">
               <h1
                 className="text-4xl font-bold tracking-tighter sm:text-6xl xl:text-7xl/none">
-                Campus  of Excellence
+                PGC
               </h1>
               <p className="max-w-[600px] text-gray-500 md:text-xl dark:text-gray-400">
                 Ranked among the top Campuses  in the world, the PGC renowned for its

@@ -91,12 +91,7 @@ which prepares graduates ready for employment across the globe.`}
                       Duration: 2 years
                     </span>
                   </div>
-                  <div className="flex items-center gap-2">
-                    <AwardIcon className="h-6 w-6 text-gray-500 dark:text-gray-400" />
-                    <span className="text-gray-500 dark:text-gray-400">
-                      NAACLS Accredited
-                    </span>
-                  </div>
+
                 </div>
               </FadeInComponent>
             </div>

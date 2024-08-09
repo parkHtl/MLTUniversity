@@ -14,39 +14,59 @@ export default function Partners() {
           </p>
 
           <div className="px-5 py-1 flex flex-row   flex-wrap justify-center gap-8 rounded-3xl">
-            <div className="md:w-[150px] md:h-[150px] w-[70px] h-[70px]   hover:scale-110 transform transition duration-500 ease-in-out">
+            <div
+                className="md:w-[150px] md:h-[150px] w-[70px] h-[70px]   hover:scale-110 transform transition duration-500 ease-in-out">
               <img
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoou6csIy1BanMM16RATXB2n2kJ1sMh_GoxoKeFweM_Q&s"
-                alt="image"
-                className="md:w-[150px] md:h-[150px]  hover:scale-110 transform transition duration-500 ease-in-out"
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoou6csIy1BanMM16RATXB2n2kJ1sMh_GoxoKeFweM_Q&s"
+                  alt="image"
+                  className="md:w-[150px] md:h-[150px]  hover:scale-110 transform transition duration-500 ease-in-out"
               />
             </div>
-            <div className=" md:w-[150px] md:h-[150px] w-[70px] h-[70px] hover:scale-110 transform transition duration-500 ease-in-out">
+            <div
+                className=" md:w-[150px] md:h-[150px] w-[70px] h-[70px] hover:scale-110 transform transition duration-500 ease-in-out">
               <img
-                src="https://upload.wikimedia.org/wikipedia/en/d/d1/Lanka_Hospitals_logo.png"
-                alt="image"
-                className="w-full h-full hover:scale-110 transform transition duration-500 ease-in-out "
+                  src="https://upload.wikimedia.org/wikipedia/en/d/d1/Lanka_Hospitals_logo.png"
+                  alt="image"
+                  className="w-full h-full hover:scale-110 transform transition duration-500 ease-in-out "
               />
             </div>
-            <div className=" md:w-[150px] md:h-[150px] w-[70px] h-[70px] hover:scale-110 transform transition duration-500 ease-in-out ">
+            <div
+                className=" md:w-[150px] md:h-[150px] w-[70px] h-[70px] hover:scale-110 transform transition duration-500 ease-in-out ">
               <img
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR41TKynVE8QjqB12jxYl2RF9fZPYuaSdNbZKyaKtUYuw&s"
-                alt="image"
-                className="w-full h-full hover:scale-110 transform transition duration-500 ease-in-out "
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR41TKynVE8QjqB12jxYl2RF9fZPYuaSdNbZKyaKtUYuw&s"
+                  alt="image"
+                  className="w-full h-full hover:scale-110 transform transition duration-500 ease-in-out "
               />
             </div>
             <div className=" md:w-[150px] md:h-[150px] w-[80px] h-[80px] hover:scale-110">
               <img
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtBirk8vBboU4Po5EenL2frj65T7D4PB4g5gAXoYtP2w&s"
-                alt="image"
-                className="w-full h-full hover:scale-110 transform transition duration-500 ease-in-out "
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtBirk8vBboU4Po5EenL2frj65T7D4PB4g5gAXoYtP2w&s"
+                  alt="image"
+                  className="w-full h-full hover:scale-110 transform transition duration-500 ease-in-out "
               />
             </div>
-            <div className=" md:w-[150px] md:h-[150px] w-[70px] h-[70px] hover:scale-110 transform transition duration-500 ease-in-out">
+            <div
+                className=" md:w-[150px] md:h-[150px] w-[70px] h-[70px] hover:scale-110 transform transition duration-500 ease-in-out">
               <img
-                src="https://i0.wp.com/sirisandahospitals.com/wp-content/uploads/2023/02/cropped-Lab-and-Phamacu-Logo.png?fit=500%2C390&ssl=1"
-                alt="image"
-                className="w-full h-full hover:scale-110 transform transition duration-500 ease-in-out "
+                  src="https://i0.wp.com/sirisandahospitals.com/wp-content/uploads/2023/02/cropped-Lab-and-Phamacu-Logo.png?fit=500%2C390&ssl=1"
+                  alt="image"
+                  className="w-full h-full hover:scale-110 transform transition duration-500 ease-in-out "
+              />
+            </div>
+            <div
+                className=" md:w-[150px] md:h-[150px] w-[70px] h-[70px] hover:scale-110 transform transition duration-500 ease-in-out">
+              <img
+                  src="/images/aic.jpg"
+                  alt="image"
+                  className="w-full h-full hover:scale-110 transform transition duration-500 ease-in-out "
+              />
+            </div>
+            <div
+                className=" md:w-[150px] md:h-[150px] w-[70px] h-[70px] hover:scale-110 transform transition duration-500 ease-in-out">
+              <img
+                  src="/images/imc.png"
+                  alt="image"
+                  className="w-full h-full hover:scale-110 transform transition duration-500 ease-in-out "
               />
             </div>
             {/* Add more partner images here */}

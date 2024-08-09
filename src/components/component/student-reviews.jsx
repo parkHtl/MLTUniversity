@@ -111,7 +111,7 @@ part of PGC Education campus!"`}
               className="rounded-full mb-4" />
             <h3 className="text-lg font-semibold">{`Bimba Kumari
 `}</h3>
-            <p className="text-muted-foreground">{`Academic Coordinator PS Healthcare Academy`}</p>
+            <p className="text-muted-foreground">{`Academic Coordinator `} <br />{`PS Healthcare Academy`}</p>
             <blockquote className="mt-4 text-muted-foreground text-justify">
               {`"My time at PATHE
 ‘Academy has been truly unforgettable and rewarding. I'he

@@ -39,7 +39,7 @@ const Country = () => {
         country="AUSTRALIA"
         university="CQUniversity"
         logoText="CQUniversity"
-        program="Transfer to Bachelor of Medical Laboratory Science"
+        program="Transfer to 2nd Year of Bachelor of Medical Laboratory Science"
         location="AUSTRALIA"
         image="/images/cqu.jpg"
       />
