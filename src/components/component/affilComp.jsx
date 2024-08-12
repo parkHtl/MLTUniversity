@@ -10,13 +10,11 @@ export function AffilComp() {
                     <div
                         className="flex flex-col items-center justify-center space-y-4 text-center">
                         <div className="space-y-2">
-                            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Explore Our Diversity
+                            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Affiliated company
                             </h2>
                             <p
                                 className="max-w-[700px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-                                UN Consortium
-                                United Network Consortium (UN Consortium) is a leading diversified conglomerate in Sri Lanka with over 20 years of history and expanded subseries in a various businesses and investments.
-
+                                {`Our sister companies are dedicated to providing exceptional educational opportunities. Whether you're pursuing a medical career or seeking higher education pathways, our brands offer tailored solutions to help you achieve your goals and connect with leading institutions worldwide.`}
                             </p>
                         </div>
                     </div>
