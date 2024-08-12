@@ -1,30 +1,22 @@
-import HowtoApply from "@/components/inhouse/HowtoApply";
+
 import ImageGridAndText from "@/components/inhouse/ImageGridAndText";
-import Header from "@/components/inhouse/header";
-import SimpleCard from "@/components/mui/SimpleCard";
-import { Globe } from "@/components/acui/glob";
-import { GlobeDemo } from "@/components/inhouse/GlobalAnimation";
-import { InfiniteMovingCardsScroll } from "@/components/inhouse/infinityCard";
-import { HeroComponent } from "@/components/inhouse/HeroComponent";
-import { BentoGrid } from "@/components/inhouse/bentoGrid";
-import { StickyScrollReveal } from "@/components/inhouse/stickyScroll";
+
 import Partners from "@/components/inhouse/Partners";
 import FadeInComponent from "@/components/inhouse/fadeInComponent";
-import Link from "next/link";
+
 import CourseContent from "@/components/inhouse/CourseContent";
 import {FurtherEd} from "@/components/component/further-ed";
 import {ExcelUni} from "@/components/component/excel-uni";
 import {AdmissionCrit} from "@/components/component/admission-crit";
-import {Collapsible, CollapsibleContent, CollapsibleTrigger} from "@/components/ui/collapsible";
 import React from "react";
-import {ChevronDownIcon} from "lucide-react";
-import FAQ from "@/components/inhouse/faq";
+
 import {ScholSchemes} from "@/components/component/schol-schemes";
 
 import NewHeroSection from "@/components/inhouse/NewHeroSection";
 import {StudentReviews} from "@/components/component/student-reviews";
 import {VideoStream} from "@/components/component/video-stream";
 import Country from "@/components/inhouse/Country";
+import {AffilComp} from "@/components/component/affilComp";
 
 export default function Home() {
   return (
@@ -39,12 +31,12 @@ export default function Home() {
           </div>
           <div className="">
 
-              <StudentReviews />
+              <StudentReviews/>
 
           </div>
           <div className="">
 
-              <VideoStream />
+              <VideoStream/>
 
           </div>
 
@@ -84,6 +76,9 @@ export default function Home() {
           </div>
           <div className="mt-2">
               <FurtherEd/>
+          </div>
+          <div className="mt-2">
+              <AffilComp/>
           </div>
           {/*<div className="mt-16">*/}
           {/*    <FAQ/>*/}

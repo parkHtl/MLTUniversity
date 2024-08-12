@@ -23,24 +23,7 @@ export function FurtherEd() {
         </FadeInComponent>
         <div
           className="mx-auto grid max-w-5xl gap-6 py-12 sm:grid-cols-2 lg:grid-cols-3">
-          <FadeInComponent>
-            <div
-              className="rounded-lg border border-gray-200 bg-white p-6 shadow-sm  dark:bg-gray-950 dark:border-gray-800">
-              <div className="grid gap-2">
-                <img
-                  alt="Web Development Bootcamp"
-                  className="rounded-lg object-cover w-full aspect-[4/3]"
-                  height={300}
-                  src="/images/2.png"
-                  width={400} />
-                <h3 className="text-xl font-semibold">Our Business Areas
-                </h3>
-                <p className="text-gray-500 dark:text-gray-400">Healthcare, Rehabilitation & long term care projects, Property development, Luxury serviced apartments , Education, Migration solutions, Overseas student placement, Artificial intelligence & Deep learning.
-                </p>
 
-              </div>
-            </div>
-          </FadeInComponent>
           <FadeInComponent>
             <div
               className="rounded-lg border border-gray-200 bg-white p-6 shadow-sm  dark:bg-gray-950 dark:border-gray-800">

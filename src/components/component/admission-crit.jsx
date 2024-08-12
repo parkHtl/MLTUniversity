@@ -26,13 +26,11 @@ export function AdmissionCrit() {
               </p>
 
               <ul className="list-disc space-y-2 pl-6 text-gray-500 dark:text-gray-400">
-                <li>Qualify in the GCE Advanced Level or equivalent with a Chemistry as a subject</li>
-                <li>A foundation program for a university degree that is recognized or equivalent</li>
-                <li>PATHE Academy MLT Certificate programme</li>
+                <li>Qualify in the GCE Advanced Level/ High school with a Chemistry as a subject</li>
+                <li>Conditional admissions with requirement to complete chemistry module are encouraged for those qualified in Advanced Level but lacking chemistry as a subject</li>
+                <li>A foundation program for a university degree that is recognized by UGC recognized degree awarding institution</li>
+                <li>PATHE Academy MLT Certificate</li>
               </ul>
-              <p className="text-gray-500 dark:text-gray-400">Conditional admissions with the requirement to complete a
-                chemistry module are encouraged for GCE Advanced/High School qualifications lacking chemistry as a
-                subject</p>
 
             </div>
             <img
