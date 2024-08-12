@@ -1,4 +1,5 @@
 import FadeInComponent from "@/components/inhouse/fadeInComponent";
+import React from "react";
 
 export function AdmissionCrit() {
   return (
@@ -20,26 +21,19 @@ export function AdmissionCrit() {
           <div
               className="mx-auto grid max-w-5xl items-start gap-6 py-12 lg:grid-cols-2 lg:gap-12">
             <div className="flex flex-col justify-center space-y-4">
-              <ul className="grid gap-6">
-                <li>
-                  <div className="grid gap-1">
-                    <h3 className="text-xl font-bold">Advanced Level</h3>
-                    <p className="text-gray-500 dark:text-gray-400">
-                      Three (3) Simple Passes in GCE Advanced Level
-                      (Including chemistry as a subject).
-                    </p>
-                  </div>
-                </li>
-                <li>
-                  <div className="grid gap-1">
-                    <h3 className="text-xl font-bold">Degree or a foundation program</h3>
-                    <p className="text-gray-500 dark:text-gray-400">
-                      A recognized University Degree foundation program
-                      or equivalent.
-                    </p>
-                  </div>
-                </li>
+              <p className="text-gray-500 dark:text-gray-400">
+                Entry requires one of the following prerequisites:
+              </p>
+
+              <ul className="list-disc space-y-2 pl-6 text-gray-500 dark:text-gray-400">
+                <li>Qualify in the GCE Advanced Level or equivalent with a Chemistry as a subject</li>
+                <li>A foundation program for a university degree that is recognized or equivalent</li>
+                <li>PATHE Academy MLT Certificate programme</li>
               </ul>
+              <p className="text-gray-500 dark:text-gray-400">Conditional admissions with the requirement to complete a
+                chemistry module are encouraged for GCE Advanced/High School qualifications lacking chemistry as a
+                subject</p>
+
             </div>
             <img
                 alt="Admission Criteria"

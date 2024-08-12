@@ -62,7 +62,7 @@ export default function Partners() {
               />
             </div>
             <div
-                className=" md:w-[150px] md:h-[150px] w-[70px] h-[70px] hover:scale-110 transform transition duration-500 ease-in-out">
+                className=" md:w-[150px] md:h-[150px] w-[70px] h-[70px] hover:scale-110 transform transition duration-500 ease-in-out object-none">
               <img
                   src="/images/imc.png"
                   alt="image"

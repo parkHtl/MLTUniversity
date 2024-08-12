@@ -119,7 +119,7 @@ which prepares graduates ready for employment across the globe.`}
                 <FadeInComponent>
                   <ul className="list-disc space-y-2 pl-6 text-gray-500 dark:text-gray-400">
                     <li>
-                      {`Globally Recognized Diploma + ONE year work experience certificate`}
+                      {`Globally Recognized Diploma + ONE year work experience letter`}
                     </li>
                     <li>{`Employment based curriculum - work recognized as education`}</li>
                     <li>{`Exemptions for prior education & work experience`}</li>
@@ -191,16 +191,7 @@ which prepares graduates ready for employment across the globe.`}
                 </p>
               </div>
             </FadeInComponent>
-            <FadeInComponent>
-              <div className="space-y-2">
-                <h3 className="text-xl font-bold">Prerequisites</h3>
-                <p className="text-gray-500 dark:text-gray-400">
-                  Three (3) Simple Passes in GCE Advanced Level
-                  (including for Chemistry as subject) or a recognized University Degree foundation program
-                  or equivalent
-                </p>
-              </div>
-            </FadeInComponent>
+
             <FadeInComponent>
               <div className="space-y-2">
                 <h3 className="text-xl font-bold">Language</h3>
