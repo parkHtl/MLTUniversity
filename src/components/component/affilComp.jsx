@@ -20,7 +20,7 @@ export function AffilComp() {
                 </FadeInComponent>
                 <div className="mx-auto grid gap-6 px-64 py-12 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 items-center justify-center">
                     <FadeInComponent>
-                        <div className="rounded-lg border border-gray-200 bg-white p-6 shadow-sm dark:bg-gray-950 dark:border-gray-800 h">
+                        <div className="rounded-lg border border-gray-200 bg-white p-6 shadow-sm dark:bg-gray-950 dark:border-gray-800 h-[450px]">
                             <div className="grid gap-2 text-center">
                                 <img
                                     alt="Data Science Certification"
@@ -35,7 +35,7 @@ export function AffilComp() {
                         </div>
                     </FadeInComponent>
                     <FadeInComponent>
-                        <div className="rounded-lg border border-gray-200 bg-white p-6 shadow-sm dark:bg-gray-950 dark:border-gray-800">
+                        <div className="rounded-lg border border-gray-200 bg-white p-6 shadow-sm dark:bg-gray-950 dark:border-gray-800 h-[450px]">
                             <div className="grid gap-2 text-center">
                                 <img
                                     alt="Digital Marketing Masterclass"
