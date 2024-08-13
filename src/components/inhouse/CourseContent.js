@@ -117,7 +117,7 @@ which prepares graduates ready for employment across the globe.`}
                     </li>
                     <li>{`Employment based curriculum - work recognized as education`}</li>
                     <li>{`Exemptions for prior education & work experience`}</li>
-                    <li>{`Assured degree pathways -locally & abroad`}</li>
+                    <li>{`Assured degree pathways - locally & abroad`}</li>
                     <li>{`Over 100 Scholarships offered on Merit & NEED-BASED`}</li>
                     <li>{`Assistance in referring to employment opportunities`}</li>
                     <li>{`Vibrant alumni`}</li>
