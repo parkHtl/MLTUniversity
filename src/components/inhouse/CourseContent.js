@@ -1,12 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import {
-  Collapsible,
-  CollapsibleTrigger,
-  CollapsibleContent,
-} from "@/components/ui/collapsible";
-import { Input } from "@/components/ui/input";
-import { Button } from "@/components/ui/button";
+
 import FadeInComponent from "@/components/inhouse/fadeInComponent";
 
 function CourseContent() {
@@ -76,7 +70,7 @@ function CourseContent() {
                   {`A modern career opportunity in the employees dominated market! As part of the 
 health-care team, the Medical Laboratory Technologist manages a large variety of
 laboratory tests and procedures that assist doctors in the diagnosis, treatment, and
-prevention of diseases. PGC programme provides a scientific foundation as well a thorough 
+prevention of diseases. PGC's MLT programme provides a scientific foundation as well a thorough 
 competency-based training solution enabling the students to develop hands on knowledge 
 to acquire employment in the industry. The fact that we closely work with TOP end industry 
 partners provide our students the access to most modern methodologies and equipment 
@@ -124,8 +118,8 @@ which prepares graduates ready for employment across the globe.`}
                     <li>{`Employment based curriculum - work recognized as education`}</li>
                     <li>{`Exemptions for prior education & work experience`}</li>
                     <li>{`Assured degree pathways -locally & abroad`}</li>
-                    <li>{`Over 100 Scholarships offered Merit & NEED-BASED!`}</li>
-                    <li>{`Assistance in referring to employments opportunities `}</li>
+                    <li>{`Over 100 Scholarships offered on Merit & NEED-BASED`}</li>
+                    <li>{`Assistance in referring to employment opportunities`}</li>
                     <li>{`Vibrant alumni`}</li>
                     <li>{`Continues education programs conducted in participation of MLT professional organizations locally & abroad`}</li>
                   </ul>
@@ -179,7 +173,7 @@ which prepares graduates ready for employment across the globe.`}
               <div className="space-y-2">
                 <h3 className="text-xl font-bold">Delivery Mode</h3>
                 <p className="text-gray-500 dark:text-gray-400">
-                  Online or On the campus
+                  Online or On-Campus
                 </p>
               </div>
             </FadeInComponent>

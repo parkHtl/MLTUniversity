@@ -32,7 +32,7 @@ export function FurtherEd() {
                   alt="Data Science Certification"
                   className="rounded-lg object-cover w-full aspect-[4/3]"
                   height={300}
-                  src="/images/4.png"
+                  src="/images/parkhtl.jpeg"
                   width={400} />
                 <h3 className="text-xl font-semibold">Park Hospitals
                 </h3>
@@ -54,7 +54,7 @@ export function FurtherEd() {
                   alt="Digital Marketing Masterclass"
                   className="rounded-lg object-cover w-full aspect-[4/3]"
                   height={300}
-                  src="/images/6.png"
+                  src="/images/convocation.jpg"
                   width={400} />
                 <h3 className="text-xl font-semibold">PGC Education
                 </h3>
