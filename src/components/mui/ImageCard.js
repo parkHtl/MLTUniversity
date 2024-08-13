@@ -4,12 +4,12 @@ import ImageListItem from "@mui/material/ImageListItem";
 
 export default function ImageCard() {
   const itemData = [
-    { img: "/images/3.png", title: "Bed" },
-    { img: "/images/1.png", title: "Kitchen" },
-    { img: "/images/2.png", title: "Sink" },
-    { img: "/images/4.png", title: "Kitchen" },
-    { img: "/images/6.png", title: "Sink" },
-    { img: "/images/5.png", title: "Kitchen" },
+    { img: "/images/AAA.jpg", title: "" },
+    { img: "/images/1.png", title: "" },
+    { img: "/images/EEE.jpg", title: "" },
+    { img: "/images/DDD.jpg", title: "" },
+    { img: "/images/CCC.jpg", title: "" },
+    { img: "/images/BBB.jpg", title: "" },
   ];
 
   return (
