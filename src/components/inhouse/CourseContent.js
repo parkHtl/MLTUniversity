@@ -181,7 +181,9 @@ which prepares graduates ready for employment across the globe.`}
               <div className="space-y-2">
                 <h3 className="text-xl font-bold">Certification</h3>
                 <p className="text-gray-500 dark:text-gray-400">
-                  Certificate of Completion
+                  Diploma in Medical Laboratory Technology (MLT)
+                  <br />
+                  {` (Equivalent to NVQ level 6 National Diploma)`}
                 </p>
               </div>
             </FadeInComponent>
