@@ -63,7 +63,7 @@ export default function Page() {
               {
                 src: "/images/rasanjalee.jpeg",
                 name: "Dr. Rasanjalee Abeywickrama",
-                qualifications: "BA, M.Sc App.Gen.",
+                qualifications: "DBA, M.Sc App.Gen.",
                 description:
                   "Senior Programme, Consultant, Lecturing experience 14 years",
               },

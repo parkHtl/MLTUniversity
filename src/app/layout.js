@@ -10,8 +10,8 @@ import NavBarV3 from "@/components/inhouse/navbarv3";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "MLT University",
-  description: "Web page for MLT university",
+  title: "PGC Education | MEDICAL LABORATORY TECHNOLOGY",
+  description: "Official Website of MEDICAL LABORATORY TECHNOLOGY programme of PGC Education",
 };
 
 export default function RootLayout({ children }) {

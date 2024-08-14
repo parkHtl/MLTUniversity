@@ -117,7 +117,7 @@ which prepares graduates ready for employment across the globe.`}
                     </li>
                     <li>{`Employment based curriculum - work recognized as education`}</li>
                     <li>{`Exemptions for prior education & work experience`}</li>
-                    <li>{`Assured degree pathways -locally & abroad`}</li>
+                    <li>{`Assured degree pathways - locally & abroad`}</li>
                     <li>{`Over 100 Scholarships offered on Merit & NEED-BASED`}</li>
                     <li>{`Assistance in referring to employment opportunities`}</li>
                     <li>{`Vibrant alumni`}</li>
@@ -181,7 +181,9 @@ which prepares graduates ready for employment across the globe.`}
               <div className="space-y-2">
                 <h3 className="text-xl font-bold">Certification</h3>
                 <p className="text-gray-500 dark:text-gray-400">
-                  Certificate of Completion
+                  Diploma in Medical Laboratory Technology (MLT)
+                  <br />
+                  {` (Equivalent to NVQ level 6 National Diploma)`}
                 </p>
               </div>
             </FadeInComponent>
