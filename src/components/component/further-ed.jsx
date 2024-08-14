@@ -21,7 +21,7 @@ export function FurtherEd() {
           </div>
         </FadeInComponent>
         <div
-          className="mx-auto grid max-w-5xl gap-6 py-12 sm:grid-cols-2 lg:grid-cols-3">
+          className="mx-auto grid max-w-5xl gap-6 py-12 sm:grid-cols-2 lg:grid-cols-4">
 
           <FadeInComponent>
             <div
@@ -52,7 +52,7 @@ export function FurtherEd() {
               </div>
             </div>
           </FadeInComponent>
-          <FadeInComponent>
+          {/* <FadeInComponent>
             <div
               className="rounded-lg border border-gray-200 bg-white p-6 shadow-sm  dark:bg-gray-950 dark:border-gray-800">
               <div className="grid gap-2">
@@ -76,7 +76,7 @@ export function FurtherEd() {
 
               </div>
             </div>
-          </FadeInComponent>
+          </FadeInComponent> */}
           <FadeInComponent>
             <div
               className="rounded-lg border border-gray-200 bg-white p-6 shadow-sm  dark:bg-gray-950 dark:border-gray-800">

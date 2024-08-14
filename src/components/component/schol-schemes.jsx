@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export function ScholSchemes() {
   return (
-    <section className="w-full py-12 md:py-24 lg:py-32 bg-gray-50 ">
+    <section className="w-full py-12 md:py-24 lg:py-12 bg-gray-50 ">
       <div className="container mx-auto px-4 md:px-6">
         <div className="grid gap-8">
           <div className="space-y-2 text-center">
@@ -13,7 +13,7 @@ export function ScholSchemes() {
               Up to 75% scholarships out of the course fees!
             </p>
           </div>
-          <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+          <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-2">
             <div className="card-animation grid gap-4 rounded-lg border bg-white p-6 shadow-sm transition-transform duration-500 hover:shadow-md hover:bg-gray-50 hover:scale-105">
               <div>
                 <h3 className="text-xl font-semibold text-gray-700">MERIT BASED SCHOLARSHIPS</h3>
@@ -28,14 +28,14 @@ export function ScholSchemes() {
                 </p>
               </div>
             </div>
-            <div className="card-animation grid gap-4 rounded-lg border bg-white p-6 shadow-sm transition-transform duration-500 hover:shadow-md hover:bg-gray-50 hover:scale-105">
+            {/* <div className="card-animation grid gap-4 rounded-lg border bg-white p-6 shadow-sm transition-transform duration-500 hover:shadow-md hover:bg-gray-50 hover:scale-105">
               <div>
                 <h3 className="text-xl font-semibold text-gray-700">Athletic Scholarship</h3>
                 <p className="text-gray-600">
                   Awarded to talented student-athletes to support their academic and athletic pursuits.
                 </p>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
