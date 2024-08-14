@@ -22,9 +22,7 @@ export function ExcelUni() {
                 PGC Education
               </h1>
               <p className="max-w-[600px] text-gray-500 md:text-xl dark:text-gray-400">
-                Ranked among the top Campuses  in the world, the PGC renowned for its
-                exceptional academic programs, cutting-edge research, and vibrant campus life. Discover a transformative
-                educational experience that will empower you to reach new heights.
+                Ranked among the top campuses in the world, PGC is renowned for its exceptional academic programs, cutting-edge research, and vibrant campus life. Discover a transformative educational experience that will empower you to reach new heights.
               </p>
             </div>
             <div className="flex flex-col gap-2 min-[400px]:flex-row">

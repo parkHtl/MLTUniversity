@@ -15,46 +15,22 @@ export default function Page() {
      
       <div className="flex flex-col  ">
         <h1 className="text-center text-2xl font-bold mt-5 mb-5 underline">
-          2 - YEAR DIPLOMA IN MEDICAL LABORATORY TECHNOLOGY (MLT)
+          2-Year Diploma in Medical Laboratory Technology (MLT)
         </h1>
         <p className="text-center px-2 md:px-10">
-          Delivered since 1996 A modern career opportunity in the employees
-          dominated market! As part of the health-care team, the Medical
-          Laboratory Technologist manages a large variety of laboratory tests
-          and procedures that assist doctors in the diagnosis, treatment, and
-          prevention of diseases. PGC programme provides a scientific foundation
-          as well a thorough competency-based training solution enabling the
-          students to develop hands on knowledge to acquire employment in the
-          industry. The fact that we closely work with TOP end industry partners
-          provide our students the access to most modern methodologies and
-          equipment which prepares graduates ready for employment across the
-          globe.
+          Delivered since 1996, this program offers a modern career opportunity in a job market dominated by employers. As part of the healthcare team, the Medical Laboratory Technologist manages a wide variety of laboratory tests and procedures that assist doctors in the diagnosis, treatment, and prevention of diseases. The PGC program provides a scientific foundation as well as thorough competency-based training, enabling students to develop hands-on knowledge to secure employment in the industry. Our close collaboration with top industry partners gives students access to the most modern methodologies and equipment, preparing graduates for employment across the globe.
         </p>
       </div>
 
       <div className="flex flex-col mt-5 mb-5 ">
         <h1 className="text-center text-2xl font-bold mt-5 mb-5 underline">
-          PROGRAMME DELIVERY CPT
+          Programme Delivery CPT
         </h1>
         <h2 className="text-center text-lg font-bold">
-          ONLINE / ON CAMPUS / ON THE JOB - hybrid delivery method.
+          Online / On-Campus / On-the-Job – Hybrid delivery method.
         </h2>
         <p className="text-center px-2 md:px-10">
-          The programme objective is employability. Hence the PGC will put
-          emphasis on the skill competencies levels and on the job training as
-          the Cofocus of the delivery. For this purpose, we will be using the
-          CPT (Curricular practical training) methodology where most of the time
-          the student shall be employed, and the employment experience shall be
-          carefully vetted and validated as the training. The first semester (
-          4-5 months) shall be lectures, classroom practical’s, demonstrations
-          which the student has to attend according the class time schedules(
-          Full time or Part time ). Some of our modules may be delivered fully
-          or partly through video presentations. The programme PGC Education
-          management has the industrial training carried out in collaboration
-          with major private healthcare institution networks. PGC Education
-          Academy reserves the right to change the venue, date, and time for
-          some modules and practical which will not be more than 30% of the
-          whole programme.
+          The programme's objective is employability. Hence, PGC will emphasize skill competencies and on-the-job training as the core focus of the delivery. For this purpose, we will use the CPT (Curricular Practical Training) methodology, where students will primarily be employed, and their employment experience will be carefully vetted and validated as training. The first semester (4-5 months) will include lectures, classroom practicals, and demonstrations, which students must attend according to the class schedules (full-time or part-time). Some modules may be delivered fully or partially through video presentations. The PGC Education management team oversees industrial training in collaboration with major private healthcare institution networks. PGC Education Academy reserves the right to change the venue, date, and time for some modules and practicals, but such changes will not exceed 30% of the entire programme.
         </p>
       </div>
       <div className="flex flex-col mt-5 mb-5 ">
@@ -76,12 +52,7 @@ export default function Page() {
        
         </h2>
         <p className="text-center px-2 md:px-10">
-        {`Those with work experience at a laboratory registered with PHSRC or at a government
-establishment OR those with other relevant MLT qualifications will be assessed on case by
-case by our academic council followed with an aptitude test for providing of Credit
-exemptions,
-
-Those who has more than 5 years work experience are exempted from the CPT.`}
+        {`Individuals with work experience in a laboratory registered with PHSRC or at a government establishment, or those with other relevant MLT qualifications, will be assessed on a case-by-case basis by our academic council, followed by an aptitude test to determine credit exemptions. Those with more than 5 years of work experience are exempt from the CPT.`}
         </p>
       </div>
       <div>
