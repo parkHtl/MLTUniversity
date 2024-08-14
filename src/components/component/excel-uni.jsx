@@ -28,12 +28,22 @@ export function ExcelUni() {
               </p>
             </div>
             <div className="flex flex-col gap-2 min-[400px]:flex-row">
+            <div className="flex flex-col gap-2 min-[400px]:flex-row">
               <Link
                 className="inline-flex h-10 items-center justify-center rounded-md bg-gray-900 px-8 text-sm font-medium text-gray-50 shadow transition-colors hover:bg-gray-900/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:bg-gray-50 dark:text-gray-900 dark:hover:bg-gray-50/90 dark:focus-visible:ring-gray-300"
                 href="/apply">
                 Apply Now
               </Link>
              
+            </div>
+            <div className="flex flex-col gap-2 min-[400px]:flex-row">
+              <Link 
+                className="inline-flex h-10 items-center justify-center rounded-md bg-white px-8 text-sm font-medium text-gray-900 shadow transition-colors hover:bg-gray-100/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:bg-gray-50 dark:text-gray-900 dark:hover:bg-gray-50/90 dark:focus-visible:ring-gray-300"
+                href="https://pgc.edu.lk/">
+                More Info
+              </Link>
+             
+            </div>
             </div>
           </div>
         </div>
