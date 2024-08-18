@@ -18,9 +18,9 @@ export function AffilComp() {
                         </div>
                     </div>
                 </FadeInComponent>
-                <div className="mx-auto grid gap-6 px-64 py-12 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 items-center justify-center">
+                <div className="mx-auto grid gap-6 px-4 py-12 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 items-center justify-center">
                     <FadeInComponent>
-                        <div className="rounded-lg border border-gray-200 bg-white p-6 shadow-sm dark:bg-gray-950 dark:border-gray-800 h-[500px]">
+                        <div className="rounded-lg border border-gray-200 bg-white p-6 shadow-sm dark:bg-gray-950 dark:border-gray-800">
                             <div className="grid gap-2 text-center">
                                 <img
                                     alt="Data Science Certification"
@@ -29,11 +29,11 @@ export function AffilComp() {
                                 />
                                 <h3 className="text-xl font-semibold">AIC Campus</h3>
                                 <p className="text-gray-500 dark:text-gray-400">
-                                    {`IMC - AIC Education Consortium, offers a range of higher education solutions, including diverse programs and direct placements for leading universities.`}
+                                    {`IMC - AIC Education Consortium offers a range of higher education solutions, including diverse programs and direct placements for leading universities.`}
                                 </p>
                                 <Link
                                     href="https://www.aicedu.lk"
-                                    className="mt-2 ml-[10px] inline-flex h-10 items-center justify-center rounded-md border border-gray-200 border-gray-200 bg-white px-8 text-sm font-medium shadow-sm transition-colors hover:bg-gray-100 hover:text-gray-900 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:border-gray-800 dark:border-gray-800 dark:bg-gray-950 dark:hover:bg-gray-800 dark:hover:text-gray-50 dark:focus-visible:ring-gray-300"
+                                    className="mt-2 inline-flex h-10 items-center justify-center rounded-md border border-gray-200 bg-white px-8 text-sm font-medium shadow-sm transition-colors hover:bg-gray-100 hover:text-gray-900 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 dark:border-gray-800 dark:bg-gray-950 dark:hover:bg-gray-800 dark:hover:text-gray-50 dark:focus-visible:ring-gray-300"
                                     prefetch={false}
                                 >
                                     Learn More
@@ -42,7 +42,7 @@ export function AffilComp() {
                         </div>
                     </FadeInComponent>
                     <FadeInComponent>
-                        <div className="rounded-lg border border-gray-200 bg-white p-6 shadow-sm dark:bg-gray-950 dark:border-gray-800 h-[500px]">
+                        <div className="rounded-lg border border-gray-200 bg-white p-6 shadow-sm dark:bg-gray-950 dark:border-gray-800">
                             <div className="grid gap-2 text-center">
                                 <img
                                     alt="Digital Marketing Masterclass"
@@ -55,7 +55,7 @@ export function AffilComp() {
                                 </p>
                                 <Link
                                     href="https://www.imcedu.com"
-                                    className="mt-2 ml-[10px] inline-flex h-10 items-center justify-center rounded-md border border-gray-200 border-gray-200 bg-white px-8 text-sm font-medium shadow-sm transition-colors hover:bg-gray-100 hover:text-gray-900 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:border-gray-800 dark:border-gray-800 dark:bg-gray-950 dark:hover:bg-gray-800 dark:hover:text-gray-50 dark:focus-visible:ring-gray-300"
+                                    className="mt-2 inline-flex h-10 items-center justify-center rounded-md border border-gray-200 bg-white px-8 text-sm font-medium shadow-sm transition-colors hover:bg-gray-100 hover:text-gray-900 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 dark:border-gray-800 dark:bg-gray-950 dark:hover:bg-gray-800 dark:hover:text-gray-50 dark:focus-visible:ring-gray-300"
                                     prefetch={false}
                                 >
                                     Learn More
@@ -66,24 +66,5 @@ export function AffilComp() {
                 </div>
             </div>
         </section>
-    );
-}
-
-function ArrowRightIcon(props) {
-    return (
-        <svg
-            {...props}
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            strokeWidth="2"
-            strokeLinecap="round"
-            strokeLinejoin="round">
-            <path d="M5 12h14" />
-            <path d="m12 5 7 7-7 7" />
-        </svg>
     );
 }
