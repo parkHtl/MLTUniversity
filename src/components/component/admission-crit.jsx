@@ -12,7 +12,7 @@ export function AdmissionCrit() {
               <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">Admission Criteria</h2>
               <p
                   className="max-w-[900px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-                Learn about the key requirements to get admitted to our course.
+                Learn about the key requirements for admission to our course.
               </p>
             </div>
           </div>
@@ -26,10 +26,10 @@ export function AdmissionCrit() {
               </p>
 
               <ul className="list-disc space-y-2 pl-6 text-gray-500 dark:text-gray-400">
-                <li>Qualify in the GCE Advanced Level/ High school with a Chemistry as a subject</li>
-                <li>Conditional admissions with requirement to complete chemistry module are encouraged for those qualified in Advanced Level but lacking chemistry as a subject</li>
-                <li>A foundation program for a university degree that is recognized by UGC recognized degree awarding institution</li>
-                <li>Recognized MLT Certificate</li>
+                <li>Qualification in the GCE Advanced Level/High School with Chemistry as a subject.</li>
+                <li>Conditional admission is encouraged for those who have qualified in the Advanced Level but lack Chemistry as a subject, with a requirement to complete a Chemistry module.</li>
+                <li>A foundation program for a university degree that is recognized by a UGC-recognized degree-awarding institution.</li>
+                <li>Recognized MLT Certificate.</li>
               </ul>
 
             </div>

@@ -7,9 +7,9 @@ export default function Textcontent() {
   return (
     <div>
       <div className=" ml-0 md:ml-10">
-        <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Want to Learn more</h2>
+        <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Want to Learn More?</h2>
         <p className="max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-          Learn more about this General modules, Recognitions and Accreditation and more or download our Brochure.
+          Learn more about the general modules, recognitions, and accreditation, or download our brochure.
         </p>
         <Link
             href="/docs/brochure.pdf"

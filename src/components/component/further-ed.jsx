@@ -15,9 +15,7 @@ export function FurtherEd() {
               </h2>
               <p
                 className="max-w-[700px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-                UN Consortium
-                United Network Consortium (UN Consortium) is a leading diversified conglomerate in Sri Lanka with over 20 years of history and expanded subseries in a various businesses and investments.
-
+                UN Consortium is a leading diversified conglomerate in Sri Lanka with over 20 years of history and various subsidiaries in different businesses and investments.
               </p>
             </div>
           </div>
@@ -119,7 +117,7 @@ export function FurtherEd() {
                 <h3 className="text-xl font-semibold">PATHE Study Abroad
 
                 </h3>
-                <p className="text-gray-500 dark:text-gray-400">PATHE STUDY ABROAD was established in 1992 with the primary objective of addressing the need to provide assistance to an ever-growing demand for Sri Lankan professionals and students to study in foreign countries. Over the years, it has emerged as one of the leading education and career consulting companies in Sri Lanka.
+                <p className="text-gray-500 dark:text-gray-400">{`PATHE Study Abroad was established in 1992 with the primary objective of addressing the need to provide assistance for the ever-growing demand among Sri Lankan professionals and students to study in foreign countries. Over the years, it has emerged as one of the leading education and career consulting companies in Sri Lanka.`}
 
                 </p>
                 <Link
@@ -146,9 +144,8 @@ export function FurtherEd() {
 
 
                 </h3>
-                <p className="text-gray-500 dark:text-gray-400">A leading Migration Services Provider in Sri Lanka, handle the whole process of visa application and procurement, whilst guiding and assisting you throughout the migration process.
-
-
+                <p className="text-gray-500 dark:text-gray-400">
+                  A leading migration services provider in Sri Lanka, Visa Global handles the entire process of visa application and procurement while guiding and assisting you throughout the migration process.
                 </p>
                 <Link
                     href="https://visaglobal.lk/"

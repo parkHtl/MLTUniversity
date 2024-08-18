@@ -29,7 +29,7 @@ export function AffilComp() {
                                 />
                                 <h3 className="text-xl font-semibold">AIC Campus</h3>
                                 <p className="text-gray-500 dark:text-gray-400">
-                                    {`IMC - AIC Education Consortium offers a range of higher education solutions, including diverse programs and direct placements for leading universities.`}
+                                    {`IMC - AIC Education Consortium offers a range of higher education solutions, including diverse programs and direct placements at leading universities.`}
                                 </p>
                                 <Link
                                     href="https://www.aicedu.lk"
@@ -51,7 +51,7 @@ export function AffilComp() {
                                 />
                                 <h3 className="text-xl font-semibold">IMC</h3>
                                 <p className="text-gray-500 dark:text-gray-400">
-                                    {`IMC offers diverse pathways for aspiring medical students to achieve their dreams, partnering with recognized universities worldwide and providing tailored education solutions.`}
+                                    {`IMC offers diverse pathways for aspiring medical students to achieve their dreams by partnering with recognized universities worldwide and providing tailored education solutions.`}
                                 </p>
                                 <Link
                                     href="https://www.imcedu.com"

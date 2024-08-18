@@ -67,14 +67,7 @@ function CourseContent() {
               </FadeInComponent>
               <FadeInComponent>
                 <p className="mt-4 text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-                  {`A modern career opportunity in the employees dominated market! As part of the 
-health-care team, the Medical Laboratory Technologist manages a large variety of
-laboratory tests and procedures that assist doctors in the diagnosis, treatment, and
-prevention of diseases. PGC's MLT programme provides a scientific foundation as well a thorough 
-competency-based training solution enabling the students to develop hands on knowledge 
-to acquire employment in the industry. The fact that we closely work with TOP end industry 
-partners provide our students the access to most modern methodologies and equipment 
-which prepares graduates ready for employment across the globe.`}
+                  {`A modern career opportunity in a job market dominated by employers! As part of the healthcare team, Medical Laboratory Technologists manage a wide variety of laboratory tests and procedures that assist doctors in the diagnosis, treatment, and prevention of diseases. PGC's MLT program provides a scientific foundation as well as thorough competency-based training, enabling students to develop hands-on knowledge to secure employment in the industry. The fact that we closely work with top industry partners gives our students access to the most modern methodologies and equipment, preparing graduates for employment across the globe.`}
                 </p>
               </FadeInComponent>
               <FadeInComponent>
@@ -119,8 +112,8 @@ which prepares graduates ready for employment across the globe.`}
                     <li>{`Exemptions for prior education & work experience`}</li>
                     <li>{`Assured degree pathways - locally & abroad`}</li>
                     <li>{`Over 100 Scholarships offered on Merit & NEED-BASED`}</li>
-                    <li>{`Assistance in referring to employment opportunities`}</li>
-                    <li>{`Vibrant alumni`}</li>
+                    <li>{`Assistance with employment referrals`}</li>
+                    <li>{`Vibrant alumni network`}</li>
                     <li>{`Continues education programs conducted in participation of MLT professional organizations locally & abroad`}</li>
                   </ul>
                 </FadeInComponent>
