@@ -10,7 +10,7 @@ export function StudentReviews() {
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">What Our Students Say</h2>
             <p
               className="max-w-[700px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-              Hear from our students about their experiences at our university.
+              Hear from our students about their experiences at our Campus
             </p>
           </div>
         </div>

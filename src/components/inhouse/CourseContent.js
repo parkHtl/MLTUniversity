@@ -23,7 +23,7 @@ function CourseContent() {
                   <p className="max-w-[600px] text-gray-500 md:text-xl dark:text-gray-400">
                     Are you ready to embark on a rewarding career in the
                     healthcare industry? Our comprehensive Medical Laboratory
-                    Technician (MLT) course is designed to equip you with the
+                    Technologist (MLT) course is designed to equip you with the
                     skills and knowledge needed to excel in this vital field.
                   </p>
                 </FadeInComponent>
@@ -67,7 +67,7 @@ function CourseContent() {
               </FadeInComponent>
               <FadeInComponent>
                 <p className="mt-4 text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-                  {`A modern career opportunity in a job market dominated by employers! As part of the healthcare team, Medical Laboratory Technologists manage a wide variety of laboratory tests and procedures that assist doctors in the diagnosis, treatment, and prevention of diseases. PGC's MLT program provides a scientific foundation as well as thorough competency-based training, enabling students to develop hands-on knowledge to secure employment in the industry. The fact that we closely work with top industry partners gives our students access to the most modern methodologies and equipment, preparing graduates for employment across the globe.`}
+                  {`A modern career opportunity in a job market dominated by employers! As part of the healthcare team, Medical Laboratory Technologist manage a wide variety of laboratory tests and procedures that assist doctors in the diagnosis, treatment, and prevention of diseases. PGC's MLT program provides a scientific foundation as well as thorough competency-based training, enabling students to develop hands-on knowledge to secure employment in the industry. The fact that we closely work with top industry partners gives our students access to the most modern methodologies and equipment, preparing graduates for employment across the globe.`}
                 </p>
               </FadeInComponent>
               <FadeInComponent>
