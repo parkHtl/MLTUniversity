@@ -42,7 +42,7 @@ function CourseContent() {
             </div>
             <FadeInComponent>
               <img
-                src="/images/6.png"
+                src="/images/launch.jpeg"
                 width="600"
                 height="400"
                 alt="MLT Course"
