@@ -42,7 +42,7 @@ function CourseContent() {
             </div>
             <FadeInComponent>
               <img
-                src="/images/6.png"
+                src="/images/launch.jpeg"
                 width="600"
                 height="400"
                 alt="MLT Course"
@@ -91,7 +91,7 @@ function CourseContent() {
                 </FadeInComponent>
                 <FadeInComponent>
                   <p className="text-gray-500 dark:text-gray-400">
-                    {` As a Medical Laboratory Technician, you'll have the opportunity to work in hospitals, clinics,
+                    {` As a Medical Laboratory Technologist, you'll have the opportunity to work in hospitals, clinics,
                   research laboratories, and more. The demand for skilled MLTs is expected to grow significantly in the
                   coming years.`}
                   </p>

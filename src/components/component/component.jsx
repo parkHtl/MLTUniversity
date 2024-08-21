@@ -15,7 +15,7 @@ export function Component() {
               <div className="space-y-2">
                 <h1
                   className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none">
-                  Become a Certified Medical Laboratory Technician
+                  Become a Certified Medical Laboratory Technologist
                 </h1>
                 <p className="max-w-[600px] text-gray-500 md:text-xl dark:text-gray-400">
                   Gain the skills and knowledge to excel in the dynamic field of medical laboratory technology. Enroll
@@ -51,7 +51,7 @@ export function Component() {
               <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">Comprehensive MLT Program</h2>
               <p
                 className="max-w-[700px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-                Our Medical Laboratory Technician (MLT) program provides a comprehensive curriculum that prepares you
+                Our Medical Laboratory Technologist (MLT) program provides a comprehensive curriculum that prepares you
                 for a rewarding career in the healthcare industry.
               </p>
             </div>
