@@ -23,7 +23,7 @@ function CourseContent() {
                   <p className="max-w-[600px] text-gray-500 md:text-xl dark:text-gray-400">
                     Are you ready to embark on a rewarding career in the
                     healthcare industry? Our comprehensive Medical Laboratory
-                    Technician (MLT) course is designed to equip you with the
+                    Technologist (MLT) course is designed to equip you with the
                     skills and knowledge needed to excel in this vital field.
                   </p>
                 </FadeInComponent>
@@ -91,7 +91,7 @@ function CourseContent() {
                 </FadeInComponent>
                 <FadeInComponent>
                   <p className="text-gray-500 dark:text-gray-400">
-                    {` As a Medical Laboratory Technician, you'll have the opportunity to work in hospitals, clinics,
+                    {` As a Medical Laboratory Technologist, you'll have the opportunity to work in hospitals, clinics,
                   research laboratories, and more. The demand for skilled MLTs is expected to grow significantly in the
                   coming years.`}
                   </p>

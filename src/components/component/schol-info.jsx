@@ -22,7 +22,7 @@ export function ScholInfo() {
         Scholarship Opportunities
       </h1>
       <p className="text-lg text-gray-500 md:text-xl dark:text-gray-400">
-        {`Dreaming of a career as a Medical Laboratory Technician but need financial assistance? We offer scholarships to help you achieve your goals. Click here to learn more about our scholarship opportunities and start your application process.`}
+        {`Dreaming of a career as a Medical Laboratory Technologist but need financial assistance? We offer scholarships to help you achieve your goals. Click here to learn more about our scholarship opportunities and start your application process.`}
       </p>
     </div>
   </div>

@@ -9,7 +9,7 @@ export function ApplyNow() {
         <div className="space-y-4 text-center w-full">
           <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Apply Now</h1>
           <p className="max-w-[700px] mx-auto text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-            Choose from one of the three application options to get started on your journey with us.
+            Choose from one of the Two application options to get started on your journey with us.
           </p>
         </div>
 
