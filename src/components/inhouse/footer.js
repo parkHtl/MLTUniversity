@@ -38,7 +38,7 @@ const Footer = () => {
           <LocationOnIcon /> <span>No. 111-1/2, Maya Avenue, Colombo 006 - Sri Lanka.</span>
         </div>
         <div className={"flex gap-4 items-center"}>
-          <EmailIcon /> <span>mlt@pgc.edu.lk </span>
+          <EmailIcon /> <span>hello@mlt.lk </span>
         </div>
         <div className={"flex gap-4 items-center"}>
           <CallIcon /> <span>+94 112 502 012 / 114 199 333
