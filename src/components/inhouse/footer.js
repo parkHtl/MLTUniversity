@@ -48,13 +48,13 @@ const Footer = () => {
         <WhatsAppIcon /> <span>+94 701 566 566</span>
         </div>
 
-        <h1 className={"text-xl md:text-3xl my-4"}>Suggestions to Management</h1>
+        <h3 className={"text-xl md:text-3xl my-4"}>Suggestions to Management</h3>
         <div className={"flex gap-4 items-center"}>
         <CallIcon /><span>+94 703 737 240</span>
         </div>
 
         <div className={"flex gap-4 items-center"}>
-        <EmailIcon /><span>suggestions@unconsortium.com <br>(usually responds withing 6 hours 24/7)</span>
+        <EmailIcon /><span>suggestions@unconsortium.com (usually responds withing 6 hours 24/7)</span>
         
         </div>
   
