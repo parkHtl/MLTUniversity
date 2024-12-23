@@ -50,7 +50,7 @@ const Footer = () => {
 
         <h1 className={"text-xl md:text-3xl my-4"}>Suggestions to Management</h1>
         <div className={"flex gap-4 items-center"}>
-        <CallIcon /><span>: 0703 737 240</span>
+        <CallIcon /><span>+94 703 737 240</span>
         </div>
 
         <div className={"flex gap-4 items-center"}>
