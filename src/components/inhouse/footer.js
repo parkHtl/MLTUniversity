@@ -47,6 +47,16 @@ const Footer = () => {
         <div className={"flex gap-4 items-center"}>
         <WhatsAppIcon /> <span>+94 701 566 566</span>
         </div>
+
+        <h1 className={"text-xl md:text-3xl my-4"}>Suggestions to Management</h1>
+        <div className={"flex gap-4 items-center"}>
+        <CallIcon /><span>: 0703 737 240</span>
+        </div>
+
+        <div className={"flex gap-4 items-center"}>
+        <EmailIcon /><span>suggestions@unconsortium.com</span>
+        </div>
+  
       </div>
     </div>
   );
