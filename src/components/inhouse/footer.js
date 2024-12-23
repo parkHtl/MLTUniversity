@@ -55,6 +55,7 @@ const Footer = () => {
 
         <div className={"flex gap-4 items-center"}>
         <EmailIcon /><span>suggestions@unconsortium.com</span>
+        <span>(usually responds withing 6 hours 24/7)</span>
         </div>
   
       </div>
