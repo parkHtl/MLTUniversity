@@ -35,6 +35,8 @@ const Footer = () => {
       <div className={"w-full md:w-[30%] flex flex-col gap-4 mt-3"}>
         <h1 className={"text-xl md:text-3xl my-4"}>Contact Us</h1>
         <div className={"flex gap-4 items-center"}>
+          <h2>PGC Education</h2>
+          <br>
           <LocationOnIcon /> <span>No. 111-1/2, Maya Avenue, Colombo 006 - Sri Lanka.</span>
         </div>
         <div className={"flex gap-4 items-center"}>
@@ -46,6 +48,7 @@ const Footer = () => {
         </div>
         <div className={"flex gap-4 items-center"}>
         <WhatsAppIcon /> <span>+94 701 566 566</span>
+        <p>Opened from 930am to 630pm including Saturdays and Sundays.( except public holidays)</p>
         </div>
 
         <h3 className={"text-sm md:text-lg my-2 pt-4"}>Suggestions to Management</h3>
