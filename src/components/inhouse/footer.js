@@ -36,7 +36,7 @@ const Footer = () => {
         <h1 className={"text-xl md:text-3xl my-4"}>Contact Us</h1>
         <div className={"flex gap-4 items-center"}>
           <h2>PGC Education</h2>
-          <br>
+          <br/>
           <LocationOnIcon /> <span>No. 111-1/2, Maya Avenue, Colombo 006 - Sri Lanka.</span>
         </div>
         <div className={"flex gap-4 items-center"}>
