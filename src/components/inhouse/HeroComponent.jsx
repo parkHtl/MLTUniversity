@@ -5,7 +5,6 @@ import { ImagesSlider } from "@/components/acui/hero";
 
 export function HeroComponent() {
     const images = [
-        "/images/L1.jpg",
         "/images/L2.jpg",
         "/images/L3.jpg",
     ];
