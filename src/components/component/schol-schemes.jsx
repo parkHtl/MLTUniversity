@@ -18,6 +18,13 @@ export function ScholSchemes() {
               <div>
                 <h3 className="text-xl font-semibold text-gray-700">MERIT BASED SCHOLARSHIPS</h3>
                 <p className="text-gray-600">Awarded to students with outstanding academic achievements.</p>
+                <br></br>
+                <Link
+                  href="/scholarships"
+                  className="inline-flex h-10 items-center justify-center rounded-md bg-gray-900 px-8 text-sm font-medium text-gray-50 shadow transition-colors hover:bg-gray-900/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:bg-gray-50 dark:text-gray-900 dark:hover:bg-gray-50/90 dark:focus-visible:ring-gray-300"
+                  prefetch={false}>
+                Learn More
+              </Link>
               </div>
             </div>
             <div className="card-animation grid gap-4 rounded-lg border bg-white p-6 shadow-sm transition-transform duration-500 hover:shadow-md hover:bg-gray-50 hover:scale-105">
@@ -26,6 +33,13 @@ export function ScholSchemes() {
                 <p className="text-gray-600">
                   Financial assistance for students with demonstrated financial need.
                 </p>
+                <br></br>
+                <Link
+                  href="/scholarships"
+                  className="inline-flex h-10 items-center justify-center rounded-md bg-gray-900 px-8 text-sm font-medium text-gray-50 shadow transition-colors hover:bg-gray-900/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:bg-gray-50 dark:text-gray-900 dark:hover:bg-gray-50/90 dark:focus-visible:ring-gray-300"
+                  prefetch={false}>
+                Learn More
+              </Link>
               </div>
             </div>
             {/* <div className="card-animation grid gap-4 rounded-lg border bg-white p-6 shadow-sm transition-transform duration-500 hover:shadow-md hover:bg-gray-50 hover:scale-105">
