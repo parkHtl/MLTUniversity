@@ -80,6 +80,30 @@ export function ScholInfo() {
             </CardContent>
           </Card>
         </div>
+
+        <br></br>
+        
+        <div className="flex justify-center mt-6">
+    <div className="bg-card rounded-lg p-6 shadow-sm hover:shadow-md transition-shadow text-center flex flex-col items-center bg-slate-300 hover:bg-gray-300 max-w-lg w-full">
+      <div className="flex items-center gap-4 flex-col">
+        <div className="bg-muted text-muted-foreground rounded-full p-3"></div>
+        <h3 className="text-xl font-semibold">Scholarships Application Form</h3>
+      </div>
+      <p className="mt-2 text-muted-foreground">
+        Fill out our PGC Education online Scholarship Application Form
+      </p>
+      <div className="flex gap-3 justify-center items-center mt-4 md:flex-row flex-col">
+        <Link
+          href="https://forms.gle/LzYReR8UBV3V12qX9"
+          className="inline-flex h-10 items-center justify-center rounded-md bg-gray-900 px-8 text-sm font-medium text-gray-50 shadow transition-colors hover:bg-gray-900/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:bg-gray-50 dark:text-gray-900 dark:hover:bg-gray-50/90 dark:focus-visible:ring-gray-300"
+          prefetch={false}
+        >
+          Apply Now
+        </Link>
+      </div>
+    </div>
+    </div>
+        
       </section>
 
     </div>)
