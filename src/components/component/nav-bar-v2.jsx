@@ -34,7 +34,7 @@ export function NavBarV2() {
                 </Link>
             </nav>
             <Link
-                href="/apply"
+                href="https://panaska.pathe.lk/signin.php?pid=1"
                 className="hidden md:inline-flex h-10 items-center justify-center rounded-md bg-gray-900 px-8 text-sm font-medium text-gray-50 shadow transition-colors hover:bg-gray-900/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:bg-gray-50 dark:text-gray-900 dark:hover:bg-gray-50/90 dark:focus-visible:ring-gray-300"
                 prefetch={false}
             >
@@ -45,7 +45,7 @@ export function NavBarV2() {
             <DrawerTrigger asChild>
                <div className={'md:hidden flex justify-center items-center gap-3'}>
                    <Link
-                       href="/apply"
+                       href="https://panaska.pathe.lk/signin.php?pid=1"
                        className=" md:hidden flex h-10 items-center justify-center rounded-md bg-gray-900 px-8 text-sm font-medium text-gray-50 shadow transition-colors hover:bg-gray-900/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:bg-gray-50 dark:text-gray-900 dark:hover:bg-gray-50/90 dark:focus-visible:ring-gray-300"
                        prefetch={false}
                    >
@@ -75,7 +75,7 @@ export function NavBarV2() {
                   </Link>
               </DrawerTrigger>
               <DrawerTrigger asChild>
-                <Link href="/apply" className="hover:underline bg-gray-200 p-[10px] rounded-2xl" prefetch={false}>
+                <Link href="https://panaska.pathe.lk/signin.php?pid=1" className="hover:underline bg-gray-200 p-[10px] rounded-2xl" prefetch={false}>
                   Apply Now
                 </Link>
               </DrawerTrigger>
