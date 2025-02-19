@@ -25,8 +25,17 @@ export function ApplyNow() {
             <p className="mt-2 text-muted-foreground">
               Apply through our online portal for our undergraduate programs
             </p>
-            <Link
+            {/*<Link
               href="https://forms.gle/gYyynf7GHraEnJNT6"
+              className="mt-3 inline-flex h-10 items-center justify-center rounded-md bg-gray-900 px-8 text-sm font-medium
+               text-gray-50 shadow transition-colors hover:bg-gray-900/90 focus-visible:outline-none focus-visible:ring-1
+                focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:bg-gray-50 dark:text-gray-900
+                 dark:hover:bg-gray-50/90 dark:focus-visible:ring-gray-300"
+              prefetch={false}>
+              Apply Now
+            </Link>*/}
+            <Link
+              href="https://panaska.pathe.lk/signin.php?pid=1"
               className="mt-3 inline-flex h-10 items-center justify-center rounded-md bg-gray-900 px-8 text-sm font-medium
                text-gray-50 shadow transition-colors hover:bg-gray-900/90 focus-visible:outline-none focus-visible:ring-1
                 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:bg-gray-50 dark:text-gray-900
